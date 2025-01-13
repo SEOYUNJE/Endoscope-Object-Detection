@@ -1,7 +1,9 @@
 # Endoscope-Object-Detection
 
-1) Dataset Introduction
+## 📌 Dataset Introduction
 
-2) Exploratory Data Analysis
+## 📌 Exploratory Data Analysis
 
-3) Result
+## 📌 Result
+
+## 📌 Next Step
