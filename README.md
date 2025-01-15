@@ -16,17 +16,18 @@
 7. Contact
 
 #### 📝 Citing
-___
-   `{
-    Author = {서윤제, 유민선},
-    Title = {Endoscope Object Detection Model},
-    Year = {2025},
-    Publisher = {GitHub},
-    Journal = {GitHub repository},
-    Howpublished = {\url{https://github.com/SEOYUNJE/Endoscope-Object-Detection}}
-     }`
+    {
+      Author = {서윤제, 유민선},
+      Title = {Endoscope Object Detection Model},
+      Year = {2025},
+      Publisher = {GitHub},
+      Journal = {GitHub repository},
+      Howpublished = {\url{https://github.com/SEOYUNJE/Endoscope-Object-Detection}}
+    }
 
 
 #### 🧧 Contact
 
-email: seoyunje2001@gmail.com
+=> **서윤제's email**: seoyunje2001@gmail.com
+
+=> **유민선's email**: msyu787@gmail.com
