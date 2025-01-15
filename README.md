@@ -1,5 +1,21 @@
 ### 📚 Project Documentation 📚
+**📌 Project Name** 
+   
+딥러닝 기반 위,대장 내시경 영상 내 질환 자동 검출 
+    
+**📌 Project Goal**
+    
+1Stage Model부터 2Stage Model까지 다양한 모델 Architecture 공부 및 의료 이미지 도메인에 대한 이해 향상을 목표로 합니다 
 
+**📌 Lesion Detection**
+
+AI를 통해 위장, 대장 내 궤양, 용종, 암 검출 가능 
+
+![image](https://github.com/user-attachments/assets/8ba85673-6c77-465c-a990-688d4f6ff05b)
+
+
+**📌 Project Background**
+    
 ### 📋 Table of content
 1. Dataset
     
