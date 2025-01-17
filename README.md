@@ -37,9 +37,9 @@
    
 2. [Exploratory Data Analysis](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-exploratory-data-analysis)
    
-    I. [Gastroscopy EDA](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-gastroscopy-eda)
+    I. [Gastroscopy EDA](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#gastroscopy-eda)
    
-    II. [Colonoscopy EDA](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-colonoscopy-eda)
+    II. [Colonoscopy EDA](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#colonoscopy-eda)
 
 4. Train
 
