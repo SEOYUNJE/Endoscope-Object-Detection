@@ -36,7 +36,7 @@
 
 6. Citing
 
-7. [Contact](##### ⏳ Dataset)
+7. [Contact](#contact)
 
 #### ⏳ Dataset
 
