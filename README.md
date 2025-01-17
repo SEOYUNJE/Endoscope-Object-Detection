@@ -28,9 +28,9 @@
    
      I. [AI Hub's Original Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#ai-hubs-original-dataset)
    
-     II. Gastroscopy Dataset
+     II. [Gastroscopy Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#gastroscopy-dataset)
    
-     III. Colonoscopy Dataset
+     III. [Colonoscopy Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#colonoscopy-dataset)
    
 3. Exploratory Data Analysis
 
@@ -48,28 +48,79 @@
 
 ##### AI Hubs' Original Dataset
 
-▶ 주소(Download is possible only Korean)
+<details> 
+<summary>주소(Download is possible only Korean)</summary>
+<br>
+=> https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71666
+</details>
 
-https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71666 
-
-▶ 소개
-
-실제 위, 대장 내시경의 궤양, 용종, 암 이미지를 기반으로 위 20,000장(궤양 5,000장, 용종 5,000장, 암 10,000장), 대장 20,000장(궤양 5,000장, 용종 5,000장, 암 10,000장) 총 40,000장의 내시경 이미지 합성 이미지를 생성
+<details> 
+<summary>소개</summary>
+<br>
+=> 실제 위, 대장 내시경의 궤양, 용종, 암 이미지를 기반으로 위 20,000장(궤양 5,000장, 용종 5,000장, 암 10,000장), 대장 20,000장(궤양 5,000장, 용종 5,000장, 암 10,000장) 총 40,000장의 내시경 이미지 합성 이미지를 생성
+</details>
   
-▶ 구축 목적
+<details> 
+<summary>구축목적</summary>
+<br>
+=> 개인 정보 이슈가 없이 누구나 사용가능한 헬스케어 데이터를 배포하기 위한 목적으로, 실제의 위/대장 내시경을 기반으로 생성AI를 통해 위/대장 내시경 이미지를 합성함
+   
+</details>
 
-개인정보 이슈가 없이 누구나 사용가능한 헬스케어 데이터를 배포하기 위한 목적으로, 실제의 위/대장 내시경을 기반으로 생성 AI를 통해 위/대장 내시경 이미지를 합성함
-
-▶ 데이터 구축 규모
-
-내시경 이미지 합성데이터 총 4만장 (위 합성데이터 2만장, 대장 합성데이터 2만장)
-
+<details> 
+<summary>데이터 구축 규모</summary>
+<br>
+=> 내시경 이미지 합성데이터 총 4만장 (위 합성데이터 2만장, 대장 합성데이터 2만장)
+   
 ![image](https://github.com/user-attachments/assets/600fa2ad-17be-49dd-842b-2ca6ca81a255)
+</details>
 
 
 ##### Gastroscopy Dataset
 
+<details> 
+<summary>주소</summary>
+<br>
+=> 
+</details>
+
+
+<details> 
+<summary>구축목적</summary>
+<br>
+=> 리소스 자원의 한계로 인해 4만장의 대용량 데이터셋 학습에 무리가 있음. 이에 리소스 자원 내 모델 학습 및 최적화를 위해 소규모 데이터셋을 구축함. 
+</details>
+
+<details>
+<summary>데이터 구축 규모</summary>
+<br>
+위 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 500장)
+
+![image](https://github.com/user-attachments/assets/a8e9376f-9f14-4d3f-98ef-1ce7da305a82)
+
+</details>
+
+
 ##### Colonoscopy Dataset
+
+<details> 
+<summary>주소</summary>
+<br>
+=> 
+</details>
+
+<details> 
+<summary>구축목적</summary>
+<br>
+=> 리소스 자원의 한계로 인해 4만장의 대용량 데이터셋 학습에 무리가 있음. 이에 리소스 자원 내 모델 학습 및 최적화를 위해 소규모 데이터셋을 구축함. 
+</details>
+
+<details>
+<summary>데이터 구축 규모</summary>
+<br>
+대장 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 500장)
+
+</details>
 
 #### 📝 Citing
     {
