@@ -26,7 +26,7 @@
 ### 📋 Table of content
 1. [Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-dataset)
    
-     I. [AI Hub's Original Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-aihub'soriginaldataset)
+     I. [AI Hub's Original Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#ai-hubs-original-dataset)
    
      II. Gastroscopy Dataset
    
