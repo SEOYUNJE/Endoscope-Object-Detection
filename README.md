@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/781a248d-6091-438a-b3ec-674da69c4bd4)
 
 
-### 📚 Project Introduction 📚
+## 📚 Project Introduction 📚
 **📌 Project Name** 
    
 => 딥러닝 기반 위,대장 내시경 영상 내 질환 자동 검출 
@@ -26,7 +26,7 @@
 ![image](https://github.com/user-attachments/assets/adb89331-959d-419c-985d-564bf5452960)
 
    
-### 📋 Table of content
+## 📋 Table of content
 1. [Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-dataset)
    
     I. [AI Hub's Original Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#ai-hubs-original-dataset)
@@ -51,9 +51,9 @@
 
 8. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-contact)
 
-#### ⏳ Dataset
+### ⏳ Dataset
 
-##### AI Hubs' Original Dataset
+#### AI Hubs' Original Dataset
 
 <details> 
 <summary>주소(Download is possible only Korean)</summary>
@@ -84,7 +84,7 @@
 </details>
 
 
-##### Gastroscopy Dataset
+#### Gastroscopy Dataset
 
 <details> 
 <summary>주소</summary>
@@ -109,7 +109,7 @@
 </details>
 
 
-##### Colonoscopy Dataset
+#### Colonoscopy Dataset
 
 <details> 
 <summary>주소</summary>
@@ -130,13 +130,15 @@
 
 </details>
 
-#### 💡 Exploratory Data Analysis
 
-##### Gastroscopy EDA
+### 💡 Exploratory Data Analysis
 
-##### Colonoscopy EDA
+#### Gastroscopy EDA
 
-#### 📝 Citing
+#### Colonoscopy EDA
+
+
+### 📝 Citing
     {
       Author = {서윤제, 유민선},
       Title = {Endoscope Object Detection Model},
@@ -147,7 +149,7 @@
     }
 
 
-#### 🧧 Contact
+### 🧧 Contact
 
 => **서윤제's email**: seoyunje2001@gmail.com
 
