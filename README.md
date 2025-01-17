@@ -24,21 +24,52 @@
 
    
 ### 📋 Table of content
-1. Dataset
-    
-2. Exploratory Data Analysis
+1. [Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-dataset)
+   
+     I. [AI Hub's Original Dataset](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ai)
+   
+     II. Gastroscopy Dataset
+   
+     III. Colonoscopy Dataset
+   
+3. Exploratory Data Analysis
 
-3. Train
+4. Train
 
-4. Eval
+5. Eval
 
-5. Test 
+6. Test 
 
-6. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-citing)
+7. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-citing)
 
-7. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-contact)
+8. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-contact)
 
 #### ⏳ Dataset
+
+##### AI Hubs' Original Dataset
+
+▶ 주소(Download is possible only Korean)
+
+https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=data&dataSetSn=71666 
+
+▶ 소개
+
+실제 위, 대장 내시경의 궤양, 용종, 암 이미지를 기반으로 위 20,000장(궤양 5,000장, 용종 5,000장, 암 10,000장), 대장 20,000장(궤양 5,000장, 용종 5,000장, 암 10,000장) 총 40,000장의 내시경 이미지 합성 이미지를 생성
+  
+▶ 구축 목적
+
+개인정보 이슈가 없이 누구나 사용가능한 헬스케어 데이터를 배포하기 위한 목적으로, 실제의 위/대장 내시경을 기반으로 생성 AI를 통해 위/대장 내시경 이미지를 합성함
+
+▶ 데이터 구축 규모
+
+내시경 이미지 합성데이터 총 4만장 (위 합성데이터 2만장, 대장 합성데이터 2만장)
+
+![image](https://github.com/user-attachments/assets/600fa2ad-17be-49dd-842b-2ca6ca81a255)
+
+
+##### Gastroscopy Dataset
+
+##### Colonoscopy Dataset
 
 #### 📝 Citing
     {
