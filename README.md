@@ -34,9 +34,9 @@
 
 5. Test 
 
-6. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/edit/main/README.md#-citing)
+6. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/main/README.md#-citing)
 
-7. [Contact](#contact)
+7. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/main/README.md#-contact)
 
 #### ⏳ Dataset
 
