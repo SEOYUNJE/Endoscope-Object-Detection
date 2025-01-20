@@ -89,7 +89,7 @@
 <details> 
 <summary>주소</summary>
 <br>
-=> 
+=> https://www.kaggle.com/datasets/msyu78/gastroscopy-meta
 </details>
 
 
@@ -114,7 +114,7 @@
 <details> 
 <summary>주소</summary>
 <br>
-=> 
+=> https://www.kaggle.com/datasets/msyu78/metadataset
 </details>
 
 <details> 
@@ -176,6 +176,43 @@
 
 #### Colonoscopy EDA
 
+<details>
+<summary>metadata</summary>
+<br>
+   
+| Meta      | Count |
+|----------------------|-------|
+| Total Image         | 2000   |
+| Total Image with bbox annotation| 1997   |
+| Average of bboxes per image  | 1   |
+| The most bboxes in one image | 29   |
+| The least bboxes in one image  | 1   |
+</details>
+
+<details>
+<summary>Location of Bounding Box</summary>
+<br>
+
+![image](https://github.com/user-attachments/assets/d2bfa085-347e-4f20-aba9-a87e31f8a07c)
+</details>
+
+<details>
+<summary>Examples</summary>
+<br>
+
+- Ulcer Example
+  
+![image](https://github.com/user-attachments/assets/d2b4cc6e-ae9f-4b07-88df-42e791a1c3c7)
+
+- Polyp Example
+  
+![image](https://github.com/user-attachments/assets/b58bff8a-861d-4f67-8d8b-7cc533b939b1)
+
+- Cancer Example
+  
+![image](https://github.com/user-attachments/assets/4b319992-379d-4f25-b948-a80d2abfab6e)
+
+</details>
 
 ### 📝 Citing
     {
