@@ -104,7 +104,8 @@
 <br>
 위 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 500장)
 
-![image](https://github.com/user-attachments/assets/a8e9376f-9f14-4d3f-98ef-1ce7da305a82)
+![image](https://github.com/user-attachments/assets/e08db12f-d19e-40f0-8531-e223499b985b)
+
 
 </details>
 
@@ -127,6 +128,9 @@
 <summary>데이터 구축 규모</summary>
 <br>
 대장 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 500장)
+   
+![image](https://github.com/user-attachments/assets/b21549fd-e535-427e-bfca-29926efce607)
+
 
 </details>
 
@@ -183,9 +187,9 @@
 | Meta      | Count |
 |----------------------|-------|
 | Total Image         | 2000   |
-| Total Image with bbox annotation| 1997   |
+| Total Image with bbox annotation| 1996   |
 | Average of bboxes per image  | 1   |
-| The most bboxes in one image | 29   |
+| The most bboxes in one image | 10   |
 | The least bboxes in one image  | 1   |
 </details>
 
@@ -193,7 +197,8 @@
 <summary>Location of Bounding Box</summary>
 <br>
 
-![image](https://github.com/user-attachments/assets/d2bfa085-347e-4f20-aba9-a87e31f8a07c)
+![image](https://github.com/user-attachments/assets/d96d798d-05cc-4bbc-8dfb-ab46703cea1c)
+
 </details>
 
 <details>
@@ -202,15 +207,18 @@
 
 - Ulcer Example
   
-![image](https://github.com/user-attachments/assets/d2b4cc6e-ae9f-4b07-88df-42e791a1c3c7)
+![image](https://github.com/user-attachments/assets/24a66ee0-b475-4b8d-9208-83564497529a)
+
 
 - Polyp Example
   
-![image](https://github.com/user-attachments/assets/b58bff8a-861d-4f67-8d8b-7cc533b939b1)
+![image](https://github.com/user-attachments/assets/8dd3e9e8-3f42-47ce-9442-50647a25c503)
+
 
 - Cancer Example
   
-![image](https://github.com/user-attachments/assets/4b319992-379d-4f25-b948-a80d2abfab6e)
+![image](https://github.com/user-attachments/assets/8bc85778-27cd-45c9-837f-2b7b4651e4cf)
+
 
 </details>
 
