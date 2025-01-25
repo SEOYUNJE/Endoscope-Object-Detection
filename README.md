@@ -41,11 +41,13 @@
    
     II. [Colonoscopy EDA](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#colonoscopy-eda)
 
-4. Train
+3. [Train](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-train)
 
-5. Eval
+4. [Inference](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-inference)
 
-6. Test 
+5. [Ensemble with WBF](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ensemble-with-wbf)
+
+6. [Calibrated Confidence Score](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-calibrated-confidence-score)
 
 7. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-citing)
 
@@ -243,6 +245,14 @@
 
 
 </details>
+
+### 📦 Train 
+
+### ⛳ Inference
+
+### 🎯 Ensemble with WBF
+
+### 🔗 Calibrated Confidence Score
 
 ### 📝 Citing
     {
