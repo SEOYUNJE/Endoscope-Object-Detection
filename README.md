@@ -102,10 +102,16 @@
 <details>
 <summary>데이터 구축 규모</summary>
 <br>
-위 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 500장)
+위 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 497장)
 
-![image](https://github.com/user-attachments/assets/e08db12f-d19e-40f0-8531-e223499b985b)
+![image](https://github.com/user-attachments/assets/d471a294-1d91-4b48-a8dc-f944c11bb095)
+</details>
 
+<details> 
+<summary>Data Split</summary>
+<br>
+   
+![image](https://github.com/user-attachments/assets/3714a459-97ff-4c61-9ff1-9357f8447a70)
 
 </details>
 
@@ -127,10 +133,18 @@
 <details>
 <summary>데이터 구축 규모</summary>
 <br>
-대장 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 500장)
+대장 내시경 이미지 합성데이터 2,000장(암 1,000장, 용종 500장, 궤양 496장)
    
-![image](https://github.com/user-attachments/assets/b21549fd-e535-427e-bfca-29926efce607)
+![image](https://github.com/user-attachments/assets/1713067a-f845-406d-9bdb-70ee1949d1e6)
 
+
+</details>
+
+<details> 
+<summary>Data Split</summary>
+<br>
+   
+![image](https://github.com/user-attachments/assets/3714a459-97ff-4c61-9ff1-9357f8447a70)
 
 </details>
 
@@ -145,7 +159,6 @@
    
 | Meta      | Count |
 |----------------------|-------|
-| Total Image         | 2000   |
 | Total Image with bbox annotation| 1997   |
 | Average of bboxes per image  | 1   |
 | The most bboxes in one image | 29   |
@@ -186,7 +199,6 @@
    
 | Meta      | Count |
 |----------------------|-------|
-| Total Image         | 2000   |
 | Total Image with bbox annotation| 1996   |
 | Average of bboxes per image  | 1   |
 | The most bboxes in one image | 10   |
