@@ -89,7 +89,12 @@
 <details> 
 <summary>주소</summary>
 <br>
-=> https://www.kaggle.com/datasets/msyu78/gastroscopy-meta
+   
+=> **Gastroscopy 256X256**: https://www.kaggle.com/datasets/seoyunje/gastroscopy-256x256-resized-png 
+
+=> **Gastroscopy 1024X1024**: https://www.kaggle.com/datasets/seoyunje/gastroscopy-1024x1024-resized-png
+
+=> **Annotation**: https://www.kaggle.com/datasets/msyu78/gastroscopy-meta
 </details>
 
 
@@ -121,7 +126,12 @@
 <details> 
 <summary>주소</summary>
 <br>
-=> https://www.kaggle.com/datasets/msyu78/metadataset
+   
+=> **Colonoscopy 256X256**: https://www.kaggle.com/datasets/seoyunje/colonoscopy-256x256-resized-png
+   
+=> **Colonoscopy 1024X1024**: https://www.kaggle.com/datasets/seoyunje/colonoscopy-1024x1024-resized-png
+
+=> **Annotation**: https://www.kaggle.com/datasets/msyu78/metadataset
 </details>
 
 <details> 
