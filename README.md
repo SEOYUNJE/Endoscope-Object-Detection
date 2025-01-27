@@ -303,6 +303,12 @@
 <summary> 📌 Metric mAP50, 75</summary>
 <br>
 
+|              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)     |    0.742 | 0.745 | 0.685 | 0.797 | 0.449 | 0.597 | 0.291 | 0.458     |
+| V1 with TTA         | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)       |    0.742 | 0.745 | 0.685 | 0.797 | 0.449 | 0.597 | 0.291 | 0.458     |
+| Version 3                  | 29       |                                                                 |
+| Version 4                  | 1        |                                                                 |
 </details>
 
 #### EfficientDet_TEST
