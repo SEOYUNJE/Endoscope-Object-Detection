@@ -262,18 +262,49 @@
 ### 📦 Train 
 
 #### YOLO
+<details>
+<summary> 📌 Update Version</summary>
+<br>
+
+</details>
 
 #### Detectron2
+<details>
+<summary> 📌 Update Version</summary>
+<br>
+
+</details>
 
 #### EfficientDet
+<details>
+<summary> 📌 Update Version</summary>
+<br>
+
+</details>
+
 
 ### ⛳ Inference
 
 #### YOLO_TEST
+<details>
+<summary> 📌 Metric mAP50, 75</summary>
+<br>
+
+</details>
 
 #### Detectron2_TEST
+<details>
+<summary> 📌 Metric mAP50, 75</summary>
+<br>
+
+</details>
 
 #### EfficientDet_TEST
+<details>
+<summary> 📌 Metric mAP50, 75</summary>
+<br>
+
+</details>
 
 ### 🎯 Ensemble with WBF
 
