@@ -43,15 +43,28 @@
 
 3. [Train](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-train)
 
-4. [Inference](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-inference)
+   I. [Yolo](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#yolo)
+   
+   II. [Detectron2](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#detectron2)
 
-5. [Ensemble with WBF](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ensemble-with-wbf)
+   III. [EfficientDet](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#efficientdet)
 
-6. [Calibrated Confidence Score](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-calibrated-confidence-score)
+5. [Inference](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-inference)
 
-7. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-citing)
+   I. [Yolo](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#yolo)
+   
+   II. [Detectron2](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#detectron2)
 
-8. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-contact)
+   III. [EfficientDet](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#efficientdet)
+
+
+7. [Ensemble with WBF](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ensemble-with-wbf)
+
+8. [Calibrated Confidence Score](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-calibrated-confidence-score)
+
+9. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-citing)
+
+10. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-contact)
 
 ### ⏳ Dataset
 
@@ -248,7 +261,19 @@
 
 ### 📦 Train 
 
+#### YOLO
+
+#### Detectron2
+
+#### EfficientDet
+
 ### ⛳ Inference
+
+#### YOLO
+
+#### Detectron2
+
+#### EfficientDet
 
 ### 🎯 Ensemble with WBF
 
