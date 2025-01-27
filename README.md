@@ -51,11 +51,11 @@
 
 5. [Inference](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-inference)
 
-   I. [Yolo](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#yolo)
+   I. [Yolo](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#yolo(test))
    
-   II. [Detectron2](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#detectron2)
+   II. [Detectron2](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#detectron2(test))
 
-   III. [EfficientDet](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#efficientdet)
+   III. [EfficientDet](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#efficientdet(test))
 
 
 7. [Ensemble with WBF](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ensemble-with-wbf)
@@ -269,11 +269,11 @@
 
 ### ⛳ Inference
 
-#### YOLO
+#### YOLO(TEST)
 
-#### Detectron2
+#### Detectron2(TEST)
 
-#### EfficientDet
+#### EfficientDet(TEST)
 
 ### 🎯 Ensemble with WBF
 
