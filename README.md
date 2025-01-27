@@ -272,7 +272,13 @@
 <details>
 <summary> 📌 Update Version</summary>
 <br>
-
+   
+| Version                    | Link     |                     Details                    |
+|----------------------------|----------|------------------------------------------------|
+| Version 1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/baseline_v1.ipynb)     |  Build Baseline Notebook                                        |
+| Version 2                  | 1        |                                                                 |
+| Version 3                  | 29       |                                                                 |
+| Version 4                  | 1        |                                                                 |
 </details>
 
 #### EfficientDet
