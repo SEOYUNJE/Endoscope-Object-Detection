@@ -263,46 +263,75 @@
 
 #### YOLO
 <details>
-<summary> 📌 Update Version</summary>
+<summary> GastroScopy</summary>
+<br>
+
+</details>
+
+<details>
+<summary> ColonoScopy</summary>
 <br>
 
 </details>
 
 #### Detectron2
 <details>
-<summary> 📌 Update Version</summary>
+<summary> GastroScopy</summary>
 <br>
-   
-| Version                    | Link     |                     Details                    |
-|----------------------------|----------|------------------------------------------------|
-| Version 1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/baseline_v1.ipynb)     |  Build Baseline Notebook                                        |
-| Version 2                  | 1        |                                                                 |
-| Version 3                  | 29       |                                                                 |
-| Version 4                  | 1        |                                                                 |
+
+</details>
+
+<details>
+<summary> ColonoScopy</summary>
+<br>
+
 </details>
 
 #### EfficientDet
 <details>
-<summary> 📌 Update Version</summary>
+<summary> GastroScopy</summary>
 <br>
 
 </details>
 
+<details>
+<summary> ColonoScopy</summary>
+<br>
+
+</details>
 
 ### ⛳ Inference
 
 #### YOLO_TEST
 <details>
-<summary> 📌 Metric mAP50, 75</summary>
+<summary>  GastroScopy 📌 Metric mAP50, 75</summary>
+<br>
+
+</details>
+
+<details>
+<summary>  ColonoScopy 📌 Metric mAP50, 75</summary>
 <br>
 
 </details>
 
 #### Detectron2_TEST
 <details>
-<summary> 📌 Metric mAP50, 75</summary>
+<summary> GastroScopy 📌 Metric mAP50, 75</summary>
 <br>
+   
+|              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)     |    0.587 | 0.410 | 0.637 | 0.716 | 0.281 | 0.134 | 0.285 | 0.423     |
+| V1 with TTA         | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_tta_v1.ipynb)       |    0.616 | 0.440 | 0.672 | 0.736 | 0.286 | 0.146 | 0.314 | 0.397     |
+| Version 3                  | 29        |    0.639 | 0.457 | 0.697 | 0.763 | 0.294 | 0.141 | 0.316 | 0.425     |
+| Version 4                  | 1        |                                                                 |
+</details>
 
+<details>
+<summary> ColonoScopy 📌 Metric mAP50, 75</summary>
+<br>
+   
 |              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)     |    0.740 | 0.756 | 0.682 | 0.781 | 0.460 | 0.580 | 0.325 | 0.475     |
@@ -313,10 +342,14 @@
 
 #### EfficientDet_TEST
 <details>
-<summary> 📌 Metric mAP50, 75</summary>
+<summary>  GastroScopy 📌 Metric mAP50, 75</summary>
 <br>
 
 </details>
+
+<details>
+<summary>  ColonoScopy 📌 Metric mAP50, 75</summary>
+<br>
 
 ### 🎯 Ensemble with WBF
 
