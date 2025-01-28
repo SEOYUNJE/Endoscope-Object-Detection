@@ -277,7 +277,21 @@
 #### Detectron2
 <details>
 <summary> GastroScopy</summary>
-<br>
+   
+### Updates
+___
+#### Version 1
+
+- Build Detectron2 Model Pipeline
+- Backbone: `faster_rcnn_R_50_FPN_1x`
+
+#### Version 2
+
+- Adding `Flip Transform`(**Horizontal Flip**)
+- Adding `Image Enhancement Transform`(**CLAHE**)
+- Adding `Channel Transform`(**ToGray, ChannelDropout, ChannelShift, RGBShift**)
+- Adding `Dropout Transform`(**XYMasking, CoarseDropout, BBoxSafeRandomCrop**)
+- Adding `Nosiy Transform`(**RandomGravel, RandomSnow**)
 
 </details>
 
@@ -324,8 +338,8 @@
 |---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)     |    0.587 | 0.410 | 0.637 | 0.716 | 0.281 | 0.134 | 0.285 | 0.423     |
 | V1 with TTA         | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_tta_v1.ipynb)       |    0.616 | 0.440 | 0.672 | 0.736 | 0.286 | 0.146 | 0.314 | 0.397     |
-| Version 3                  | 29        |    0.639 | 0.457 | 0.697 | 0.763 | 0.294 | 0.141 | 0.316 | 0.425     |
-| Version 4                  | 1        |                                                                 |
+| V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v2.ipynb)       |    0.639 | 0.457 | 0.697 | 0.763 | 0.294 | 0.141 | 0.316 | 0.425     |
+| V3                  | NoteBook        |                                                                 |
 </details>
 
 <details>
