@@ -293,6 +293,15 @@ ___
 - Adding `Dropout Transform`(**XYMasking, CoarseDropout, BBoxSafeRandomCrop**)
 - Adding `Nosiy Transform`(**RandomGravel, RandomSnow**)
 
+#### Version 3
+
+- Adding Custom MixUp Transform(probability=0.25)
+
+
+#### Version 4
+
+- Adding Custom Mosaic Transform(probability=0.25)
+
 </details>
 
 <details>
