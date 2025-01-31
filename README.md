@@ -264,7 +264,16 @@
 #### YOLO
 <details>
 <summary> GastroScopy</summary>
-<br>
+
+### Update
+#### Version0
+   - Yolov11 Model Pipeline
+   - No augmentation
+
+#### Version1
+   - Yolov11 default augmentation
+#### Version2
+   -
 
 </details>
 
