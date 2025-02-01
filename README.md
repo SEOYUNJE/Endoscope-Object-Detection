@@ -304,12 +304,18 @@ ___
 
 #### Version 3
 
-- Adding Custom MixUp Transform(probability=0.25)
+- Adding `Custom MixUp Transform`(probability=0.1)
+- Adding `Custom Mosaic Transform`(probability=0.25)
 
+![image](https://github.com/user-attachments/assets/5846af60-2928-4da2-aef2-464254d0a697)
 
 #### Version 4
+- **Batch Size**: `16 -> 8`
+- **base_lr_end**: `0 -> 1e-9`
+- **weight_decay**: `1e-5 -> 1e-4`
+- **warmup_factor**: `1e-3 -> 1e-4`
+- **warmup_iters**: `max_iters//40 -> max_iters//20`
 
-- Adding Custom Mosaic Transform(probability=0.25)
 
 </details>
 
