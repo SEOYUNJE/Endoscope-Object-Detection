@@ -319,7 +319,10 @@ ___
 #### Version 5
 - **RPN.BBOX_REG_LOSS_TYPE**: `smooth_l1` -> `ciou`
 - **ROI.BOX_HEAD.BBOX_REG_LOSS_TYPE**: `smooth_l1` -> `ciou`
+- **RPN.IOU_THRESHOLDS**: `[0.3, 0.7]` -> `[0.3, 0.6]`
 - **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 128`
+- **RPN.POSITIVE_FRACTION**: `0.7 -> 0.6`
+- **ROI.BATCH_SIZE_PER_IMAGE**: `512 -> 256`
 - **ROI.POSITIVE_FRACTION**: `0.25 -> 0.5`
 
 #### Version 6
