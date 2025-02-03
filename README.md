@@ -283,9 +283,9 @@
    - Adding `Random brightness, contrast`(**RandomBrightnessContrast**)
 
 #### Version4
-   - Adding Channel Shuffling Transform (ChannelShuffle)
-   - Adding Defocus Blur Transform (Defocus)
-   - Adding Glass Blur Transform (GlassBlur)
+   - Adding `Channel Shuffling Transform` (**ChannelShuffle**)
+   - Adding `Defocus Blur Transform` (**Defocus**)
+   - Adding `Glass Blur Transform` (**GlassBlur**)
 
 </details>
 
