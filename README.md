@@ -266,14 +266,24 @@
 <summary> GastroScopy</summary>
 
 ### Update
-#### Version0
+#### Version1
    - Yolov11 Model Pipeline
    - No augmentation
 
-#### Version1
-   - Yolov11 default augmentation
 #### Version2
-   -
+   - Adding `HSV-Hue augmentation` (**hsv_h**)
+   - Adding `HSV-Saturation augmentation` (**hsv_s**)
+   - Adding `HSV-Value augmentation` (**hsv_v**)
+   - Adding `image rotation`(**degrees**)
+   - Adding `image translation`(**translate**)
+   - Adding `rotation`(**flipup, fliplr**)
+
+#### Version3 
+   - Adding `Image Enhancement Transform`(**CLAHE**)
+   - Adding `Random brightness, contrast`(**RandomBrightnessContrast**)
+
+#### Version4
+   - 
 
 </details>
 
@@ -363,6 +373,13 @@ ___
 <details>
 <summary>  GastroScopy 📌 Metric mAP50, 75</summary>
 <br>
+
+|              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v1.ipynb)     |    0.466 | 0.148 | 0.540 | 0.594 | 0.229 | 0.090 | 0.240 | 0.356     |
+| V2      | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_tta_v1.ipynb)       |    0.574 | 0.420 | 0.631 | 0.671 | 0.324 | 0.209 | 0.348 | 0.397     |
+| V3                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v3.ipynb)       |    0.532 | 0.390 | 0.548 | 0.658 | 0.301 | 0.180 | 0.309 | 0.412     |
+| V4                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v4.ipynb)       |    0.529 | 0.354 | 0.598 | 0.636 | 0.312 | 0.218 | 0.313 | 0.404     |  
 
 </details>
 
