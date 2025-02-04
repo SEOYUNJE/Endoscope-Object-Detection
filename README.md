@@ -331,17 +331,14 @@ ___
 #### Version 5
 - **RPN.BBOX_REG_LOSS_TYPE**: `smooth_l1` -> `ciou`
 - **ROI.BOX_HEAD.BBOX_REG_LOSS_TYPE**: `smooth_l1` -> `ciou`
-- **Img Size**: `256 -> 1024`
-- **base_lr**: `0.01 -> 0.0025`
-- **base_lr_end**: `1e-9 -> 0`
-- **weight_decay**: `1e-4 -> 1e-5`
-- **warmup_factor**: `1e-4 -> 0.00025`
+- **Batch Size**: `8 -> 32`
+- **warmup_factor**: `1e-4 -> 1e-3`
+- **ANCHOR_GENERATOR.SIZES**: `[[32, 64, 128, 256, 512]] -> [[8, 16, 32, 64, 128, 196, 256]]`
+- **ANCHOR_GENERATOR.ASPECT_RATIOS**: `[[0.5, 1.0, 2.0]] -> [[0.5, 1.0, 2.0, 2.5]]`
+- **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 386`
 
 #### Version 6
-- **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 386`
-- **ROI_HEADS.IOU_THRESHOLDS**: `0.5 -> 0.45`
-- **ANCHOR_GENERATOR.ASPECT_RATIOS**: `[[0.5, 1.0, 2.0]] -> [[0.5, 1.0, 2.0, 2.5]]`
-- **ANCHOR_GENERATOR.SIZES**: `[[32, 64, 128, 256, 512]] -> [[8, 16, 32, 64, 128, 256, 386, 512, 800]]`
+
 
 ![image](https://github.com/user-attachments/assets/84fa4b7a-04a0-4ecd-83c9-6c5160a3d7bc)
 
