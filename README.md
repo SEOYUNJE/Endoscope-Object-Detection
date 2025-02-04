@@ -331,11 +331,13 @@ ___
 #### Version 5
 - **RPN.BBOX_REG_LOSS_TYPE**: `smooth_l1` -> `ciou`
 - **ROI.BOX_HEAD.BBOX_REG_LOSS_TYPE**: `smooth_l1` -> `ciou`
-- **Batch Size**: `8 -> 32`
-- **warmup_factor**: `1e-4 -> 1e-3`
-- **ANCHOR_GENERATOR.SIZES**: `[[32, 64, 128, 256, 512]] -> [[8, 16, 32, 64, 128, 196, 256]]`
-- **ANCHOR_GENERATOR.ASPECT_RATIOS**: `[[0.5, 1.0, 2.0]] -> [[0.5, 1.0, 2.0, 2.5]]`
-- **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 386`
+- **base_lr**: `1e-2 -> 5e-3`
+- **weight_decay**: `1e-4 -> 5e-5`
+- **Pooler_Resolution**: `14 -> 28`
+- **Img_SIZE**: `256 -> 512`
+- **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 384`
+- **ROI_HEADS.POSITIVE_FRACTION**: `0.25 -> 0.5`
+- **ROI_HEADS.IOU_THRESHOLDS**: `0.5 -> 0.4`
 
 #### Version 6
 
