@@ -335,12 +335,13 @@ ___
 - **weight_decay**: `1e-4 -> 5e-5`
 - **Pooler_Resolution**: `14 -> 28`
 - **Img_SIZE**: `256 -> 512`
-- **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 384`
-- **ROI_HEADS.POSITIVE_FRACTION**: `0.25 -> 0.5`
-- **ROI_HEADS.IOU_THRESHOLDS**: `0.5 -> 0.4`
+
+![image](https://github.com/user-attachments/assets/d7ca0995-2e45-4a92-babe-ae012c2519b6)
+
 
 #### Version 6
 
+**RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 384`
 
 ![image](https://github.com/user-attachments/assets/84fa4b7a-04a0-4ecd-83c9-6c5160a3d7bc)
 
