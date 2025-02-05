@@ -343,10 +343,21 @@ ___
 
 **RPN.BATCH_SIZE_PER_IMAGE**: `256 -> 384`
 
+**cfg.MODEL.ANCHOR_GENERATOR.SIZES**: `[[32, 64, 128, 256, 512]] -> [[16, 32, 64, 128, 192, 256, 512]]`
+
+**cfg.MODEL.RPN.IN_FEATURES**: `["p2", "p3", "p4","p5", "p6"] -> ["p2", "p2", "p3", "p4","p4","p5", "p6"]`
+
+**MODEL.ROI_HEADS.BATCH_SIZE_PER_IMAGE**: `512 -> 256`
+
+**MODEL.ROI_HEADS.POSITIVE_FRACTION**: `0.25 -> 0.5`
+
 ![image](https://github.com/user-attachments/assets/84fa4b7a-04a0-4ecd-83c9-6c5160a3d7bc)
 
 ![image](https://github.com/user-attachments/assets/b2139a4c-ea9a-4699-94fc-dc9a23241d74)
 
+#### Version 7
+
+**Backbone**: `faster_rcnn_R_50_FPN_1x -> faster_rcnn_X_101_32x8d_FPN_3x`
 
 </details>
 
