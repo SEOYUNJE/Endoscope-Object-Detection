@@ -371,6 +371,18 @@ ___
 <details>
 <summary> GastroScopy</summary>
 <br>
+   
+### Updates
+___
+#### Version 1
+
+- Build EfficientDet Model Pipeline
+- Backbone: `tf_efficientnet_b0`
+- Model: `tf_efficientdet_d0`
+- Adding `HorizontalFlip(p=0.5)`
+
+#### Version 2
+
 
 </details>
 
