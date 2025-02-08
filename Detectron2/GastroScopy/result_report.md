@@ -1,4 +1,4 @@
-## [Detectron2] My Journey to Test mAP50: 0.701 / mAP75: 0.343
+## [Detectron2 with CNN BackBone] My Journey to Test mAP50: 0.701 / mAP75: 0.343
 
 I recently started studying two-stage models using the Detectron2 Library. Since it was my first time working with Detectron2, I initially struggled to get the hang of it. While searching for resources. I came across an excellent article and a well-organized GitHub repository that really helped me. I'd love to share them with you!
 
@@ -104,5 +104,6 @@ However, we found that simply using a larger image size did not always lead to i
 Additionally, we considered a two-stage training approach where we first trained the model on smaller images and then fine-tuned it with larger ones. Unfortunately, this strategy did not yield better results.
 
 **Pooler_resolution**: 
+
 In the Box Head Stage, The base ROI pooler resolution was set to `14X14`. Increasing this resolution allows for capturing finer details and preserving more spatial information, which can potentially enhance mAP performance
 ![image](https://github.com/user-attachments/assets/14c31f7d-8d77-4cb6-8344-0737ed3e8ed5)
