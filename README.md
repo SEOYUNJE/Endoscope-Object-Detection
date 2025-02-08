@@ -421,6 +421,7 @@ ___
 | V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v3.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v3.yaml)  |   0.665 | 0.504 | 0.712 | 0.779 | 0.319 | 0.158 | 0.340 | 0.460     |  
 | V4                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v4.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v4.yaml)  |   0.668 | 0.521 | 0.717 | 0.767 | 0.322 | 0.183 | 0.329 | 0.455     |
 | V5                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v5.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v5.yaml)  |   0.701 | 0.552 | 0.745 | 0.805 | 0.343 | 0.199 | 0.399 | 0.430     |
+| V6                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v6.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v6.yaml)  |   0.675 | 0.533 | 0.700 | 0.792 | 0.363 | 0.188 | 0.419 | 0.480     |
 </details>
 
 <details>
