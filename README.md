@@ -351,13 +351,7 @@ ___
 
 **MODEL.ROI_HEADS.POSITIVE_FRACTION**: `0.25 -> 0.5`
 
-![image](https://github.com/user-attachments/assets/84fa4b7a-04a0-4ecd-83c9-6c5160a3d7bc)
-
-![image](https://github.com/user-attachments/assets/b2139a4c-ea9a-4699-94fc-dc9a23241d74)
-
-#### Version 7
-
-**Backbone**: `faster_rcnn_R_50_FPN_1x -> faster_rcnn_X_101_32x8d_FPN_3x`
+![image](https://github.com/user-attachments/assets/6f845a5d-d418-431b-a52e-bde4be3c683e)
 
 </details>
 
@@ -426,6 +420,7 @@ ___
 | V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v2.ipynb)       |  [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v2.yaml)  |  0.639 | 0.457 | 0.697 | 0.763 | 0.294 | 0.141 | 0.316 | 0.425     |
 | V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v3.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v3.yaml)  |   0.665 | 0.504 | 0.712 | 0.779 | 0.319 | 0.158 | 0.340 | 0.460     |  
 | V4                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v4.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v4.yaml)  |   0.668 | 0.521 | 0.717 | 0.767 | 0.322 | 0.183 | 0.329 | 0.455     |
+| V5                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v5.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v5.yaml)  |   0.701 | 0.552 | 0.745 | 0.805 | 0.343 | 0.199 | 0.399 | 0.430     |
 </details>
 
 <details>
