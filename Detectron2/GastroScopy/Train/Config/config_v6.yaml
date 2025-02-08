@@ -1,0 +1,79 @@
+"CUDNN_BENCHMARK: false\nDATALOADER:\n  ASPECT_RATIO_GROUPING: true\n  FILTER_EMPTY_ANNOTATIONS:\
+    \ true\n  NUM_WORKERS: 4\n  REPEAT_SQRT: true\n  REPEAT_THRESHOLD: 0.0\n  SAMPLER_TRAIN:\
+    \ TrainingSampler\nDATASETS:\n  PRECOMPUTED_PROPOSAL_TOPK_TEST: 1000\n  PRECOMPUTED_PROPOSAL_TOPK_TRAIN:\
+    \ 2000\n  PROPOSAL_FILES_TEST: []\n  PROPOSAL_FILES_TRAIN: []\n  TEST:\n  - gastroscopy_valid\n\
+    \  TRAIN:\n  - gastroscopy_train\nFLOAT32_PRECISION: ''\nGLOBAL:\n  HACK: 1.0\n\
+    INPUT:\n  CROP:\n    ENABLED: false\n    SIZE:\n    - 0.9\n    - 0.9\n    TYPE:\
+    \ relative_range\n  F0RMAT: BGR\n  FORMAT: BGR\n  MASK_FORMAT: polygon\n  MAX_SIZE_TEST:\
+    \ 1333\n  MAX_SIZE_TRAIN: 1333\n  MIN_SIZE_TEST: 800\n  MIN_SIZE_TRAIN:\n  - 640\n\
+    \  - 672\n  - 704\n  - 736\n  - 768\n  - 800\n  MIN_SIZE_TRAIN_SAMPLING: choice\n\
+    \  RANDOM_FLIP: horizontal\nMODEL:\n  ANCHOR_GENERATOR:\n    ANGLES:\n    - -\
+    \ -90\n      - 0\n      - 90\n    ASPECT_RATIOS:\n    - - 0.5\n      - 1.0\n \
+    \     - 2.0\n    NAME: DefaultAnchorGenerator\n    OFFSET: 0.5\n    SIZES:\n \
+    \   - - 16\n      - 32\n      - 64\n      - 128\n      - 192\n      - 256\n  \
+    \    - 512\n  BACKBONE:\n    FREEZE_AT: 2\n    NAME: build_resnet_fpn_backbone\n\
+    \  DEVICE: cuda\n  FPN:\n    FUSE_TYPE: sum\n    IN_FEATURES:\n    - res2\n  \
+    \  - res3\n    - res4\n    - res5\n    NORM: ''\n    OUT_CHANNELS: 256\n  KEYPOINT_ON:\
+    \ false\n  LOAD_PROPOSALS: false\n  MASK_ON: false\n  META_ARCHITECTURE: GeneralizedRCNN\n\
+    \  PANOPTIC_FPN:\n    COMBINE:\n      ENABLED: true\n      INSTANCES_CONFIDENCE_THRESH:\
+    \ 0.5\n      OVERLAP_THRESH: 0.5\n      STUFF_AREA_LIMIT: 4096\n    INSTANCE_LOSS_WEIGHT:\
+    \ 1.0\n  PIXEL_MEAN:\n  - 103.53\n  - 116.28\n  - 123.675\n  PIXEL_STD:\n  - 1.0\n\
+    \  - 1.0\n  - 1.0\n  PROPOSAL_GENERATOR:\n    MIN_SIZE: 0\n    NAME: RPN\n  RESNETS:\n\
+    \    DEFORM_MODULATED: false\n    DEFORM_NUM_GROUPS: 1\n    DEFORM_ON_PER_STAGE:\n\
+    \    - false\n    - false\n    - false\n    - false\n    DEPTH: 50\n    NORM:\
+    \ FrozenBN\n    NUM_GROUPS: 1\n    OUT_FEATURES:\n    - res2\n    - res3\n   \
+    \ - res4\n    - res5\n    RES2_OUT_CHANNELS: 256\n    RES5_DILATION: 1\n    STEM_OUT_CHANNELS:\
+    \ 64\n    STRIDE_IN_1X1: true\n    WIDTH_PER_GROUP: 64\n  RETINANET:\n    BBOX_REG_LOSS_TYPE:\
+    \ smooth_l1\n    BBOX_REG_WEIGHTS: &id002\n    - 1.0\n    - 1.0\n    - 1.0\n \
+    \   - 1.0\n    FOCAL_LOSS_ALPHA: 0.25\n    FOCAL_LOSS_GAMMA: 2.0\n    IN_FEATURES:\n\
+    \    - p3\n    - p4\n    - p5\n    - p6\n    - p7\n    IOU_LABELS:\n    - 0\n\
+    \    - -1\n    - 1\n    IOU_THRESHOLDS:\n    - 0.4\n    - 0.5\n    NMS_THRESH_TEST:\
+    \ 0.5\n    NORM: ''\n    NUM_CLASSES: 80\n    NUM_CONVS: 4\n    PRIOR_PROB: 0.01\n\
+    \    SCORE_THRESH_TEST: 0.05\n    SMOOTH_L1_LOSS_BETA: 0.1\n    TOPK_CANDIDATES_TEST:\
+    \ 1000\n  ROI_BOX_CASCADE_HEAD:\n    BBOX_REG_WEIGHTS:\n    - &id001\n      -\
+    \ 10.0\n      - 10.0\n      - 5.0\n      - 5.0\n    - - 20.0\n      - 20.0\n \
+    \     - 10.0\n      - 10.0\n    - - 30.0\n      - 30.0\n      - 15.0\n      -\
+    \ 15.0\n    IOUS:\n    - 0.5\n    - 0.6\n    - 0.7\n  ROI_BOX_HEAD:\n    BBOX_REG_LOSS_TYPE:\
+    \ smooth_l1\n    BBOX_REG_LOSS_WEIGHT: 1.0\n    BBOX_REG_WEIGHTS: *id001\n   \
+    \ BBOX_RGE_LOSS_TYPE: ciou\n    CLS_AGNOSTIC_BBOX_REG: false\n    CONV_DIM: 256\n\
+    \    FC_DIM: 1024\n    FED_LOSS_FREQ_WEIGHT_POWER: 0.5\n    FED_LOSS_NUM_CLASSES:\
+    \ 50\n    NAME: FastRCNNConvFCHead\n    NORM: ''\n    NUM_CONV: 0\n    NUM_FC:\
+    \ 2\n    POOLER_RESOLUTION: 28\n    POOLER_SAMPLING_RATIO: 0\n    POOLER_TYPE:\
+    \ ROIAlignV2\n    POOLR_TYPE: ROIAlignV2\n    SMOOTH_L1_BETA: 0.0\n    TRAIN_ON_PRED_BOXES:\
+    \ false\n    USE_FED_LOSS: false\n    USE_SIGMOID_CE: false\n  ROI_HEADS:\n  \
+    \  BATCH_SIZE_PER_IMAGE: 256\n    IN_FEATURES:\n    - p2\n    - p3\n    - p4\n\
+    \    - p5\n    IOU_LABELS:\n    - 0\n    - 1\n    IOU_THRESHOLDS:\n    - 0.5\n\
+    \    NAME: StandardROIHeads\n    NMS_THRESH_TEST: 0.5\n    NUM_CLASSES: 3\n  \
+    \  POSITIVE_FRACTION: 0.5\n    PROPOSAL_APPEND_GT: true\n    SCORE_THRESH_TEST:\
+    \ 0.0\n  ROI_KEYPOINT_HEAD:\n    CONV_DIMS:\n    - 512\n    - 512\n    - 512\n\
+    \    - 512\n    - 512\n    - 512\n    - 512\n    - 512\n    LOSS_WEIGHT: 1.0\n\
+    \    MIN_KEYPOINTS_PER_IMAGE: 1\n    NAME: KRCNNConvDeconvUpsampleHead\n    NORMALIZE_LOSS_BY_VISIBLE_KEYPOINTS:\
+    \ true\n    NUM_KEYPOINTS: 17\n    POOLER_RESOLUTION: 14\n    POOLER_SAMPLING_RATIO:\
+    \ 0\n    POOLER_TYPE: ROIAlignV2\n  ROI_MASK_HEAD:\n    CLS_AGNOSTIC_MASK: false\n\
+    \    CONV_DIM: 256\n    NAME: MaskRCNNConvUpsampleHead\n    NORM: ''\n    NUM_CONV:\
+    \ 4\n    POOLER_RESOLUTION: 14\n    POOLER_SAMPLING_RATIO: 0\n    POOLER_TYPE:\
+    \ ROIAlignV2\n  RPN:\n    BATCH_SIZE_PER_IMAGE: 384\n    BBOX_REG_LOSS_TYPE: ciou\n\
+    \    BBOX_REG_LOSS_WEIGHT: 1.0\n    BBOX_REG_WEIGHTS: *id002\n    BOUNDARY_THRESH:\
+    \ -1\n    CONV_DIMS:\n    - -1\n    HEAD_NAME: StandardRPNHead\n    IN_FEATURES:\n\
+    \    - p2\n    - p2\n    - p3\n    - p4\n    - p4\n    - p5\n    - p6\n    IOU_LABELS:\n\
+    \    - 0\n    - -1\n    - 1\n    IOU_THRESHOLDS:\n    - 0.3\n    - 0.7\n    LOSS_WEIGHT:\
+    \ 1.0\n    NMS_THRESH: 0.7\n    POSITIVE_FRACTION: 0.5\n    POST_NMS_TOPK: 1000\n\
+    \    POST_NMS_TOPK_TEST: 500\n    POST_NMS_TOPK_TRAIN: 1000\n    PRE_NMS_TOPK_TEST:\
+    \ 1000\n    PRE_NMS_TOPK_TRAIN: 2000\n    SMOOTH_L1_BETA: 0.0\n  SEM_SEG_HEAD:\n\
+    \    COMMON_STRIDE: 4\n    CONVS_DIM: 128\n    IGNORE_VALUE: 255\n    IN_FEATURES:\n\
+    \    - p2\n    - p3\n    - p4\n    - p5\n    LOSS_WEIGHT: 1.0\n    NAME: SemSegFPNHead\n\
+    \    NORM: GN\n    NUM_CLASSES: 54\n  WEIGHTS: https://dl.fbaipublicfiles.com/detectron2/COCO-Detection/faster_rcnn_R_50_FPN_1x/137257794/model_final_b275ba.pkl\n\
+    OUTPUT_DIR: runs/detect\nSEED: -1\nSOLVER:\n  AMP:\n    ENABLED: true\n  BASE_LR:\
+    \ 0.005\n  BASE_LR_END: 0.0\n  BIAS_LR_FACTOR: 1.0\n  CHECKPOINT_PERIOD: 5000\n\
+    \  CHECKPOINT_PREIOD: 50000\n  CLIP_GRADIENTS:\n    CLIP_TYPE: value\n    CLIP_VALUE:\
+    \ 1.0\n    ENABLED: false\n    NORM_TYPE: 2.0\n  GAMMA: 0.1\n  IMS_PER_BATCH:\
+    \ 8\n  LR_SCHEDULER_NAME: WarmupCosineLR\n  MAX_ITER: 5000\n  MOMENTUM: 0.9\n\
+    \  NESTEROV: false\n  NUM_DECAYS: 3\n  REFERENCE_WORLD_SIZE: 0\n  RESCALE_INTERVAL:\
+    \ false\n  STEPS:\n  - 60000\n  - 80000\n  WARMUP_FACTOR: 0.0005\n  WARMUP_ITERS:\
+    \ 250\n  WARMUP_METHOD: linear\n  WEIGHT_DECAY: 5.0e-05\n  WEIGHT_DECAY_BIAS:\
+    \ null\n  WEIGHT_DECAY_NORM: 0.0\nTEST:\n  AUG:\n    ENABLED: false\n    FLIP:\
+    \ true\n    MAX_SIZE: 4000\n    MIN_SIZES:\n    - 400\n    - 500\n    - 600\n\
+    \    - 700\n    - 800\n    - 900\n    - 1000\n    - 1100\n    - 1200\n  DETECTIONS_PER_IMAGE:\
+    \ 100\n  EVAL_PERIOD: 0\n  EVAL_PREIOD: 50000\n  EXPECTED_RESULTS: []\n  KEYPOINT_OKS_SIGMAS:\
+    \ []\n  PRECISE_BN:\n    ENABLED: false\n    NUM_ITER: 200\nVERSION: 2\nVIS_PERIOD:\
+    \ 0\n"
