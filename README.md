@@ -380,6 +380,8 @@ ___
 
 #### Version 2
 
+- Preprocessing with CLAHE(clipLimit=(1.5,1.5), tileGridSize=(8,8))
+- Adding **`PlanckianJitter`** augment
 
 </details>
 
@@ -448,6 +450,7 @@ ___
 |              Version            | Train  | Infer     |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |---------------------------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v1.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v1.ipynb)     |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v2.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v2.ipynb)     |  0.375 | 0.283 | 0.151 | 0.691 | 0.157 | 0.092 | 0.031 | 0.349     |
 
 </details>
 
