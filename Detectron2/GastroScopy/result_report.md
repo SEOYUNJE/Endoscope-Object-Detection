@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6201a500-54b1-4ba2-adda-a0fa8d6ed2aa)## [Detectron2 with CNN BackBone] My Journey to Test mAP50: 0.671 / mAP75: 0.373
+# My Journey to Test mAP50: 0.671 / mAP75: 0.373
 
 I recently started studying two-stage models using the Detectron2 Library. Since it was my first time working with Detectron2, I initially struggled to get the hang of it. While searching for resources. I came across an excellent article and a well-organized GitHub repository that really helped me. I'd love to share them with you!
 
@@ -109,6 +109,20 @@ In the Box Head Stage, The base ROI pooler resolution was set to `14X14`. Increa
 ![image](https://github.com/user-attachments/assets/14c31f7d-8d77-4cb6-8344-0737ed3e8ed5)
 
 ### Part-7: To the Test mAP50 0.675 / mAP75 0.363
+
+This time, We focused on RPN and ROI Network. The RPN Network originally utilized **five anchor size (32, 64, 128, 256, 512)**, but we found that these anchors struggled to detect very small bounding boxes. To address this limitation, we introduced addtional small and mid-sized anchors, enabling the model to capture more bounding boxes than before and significantly improving its ability to detect finer details.
+
+![image](https://github.com/user-attachments/assets/1ac37ed7-8296-4d9b-a3e9-da82dc36bbe4)
+
+We also discovered that ROI batch size plays a important role. To optimize this, we conducted experiments by adjusting `roi_heads.batch_size_per_image` and `roi_heads.positive_fraction`, refining the balance between positive and negative samples for improved detection performance.
+
+|   ROI_BATCH  |  postivie fraction   |  mAP50 @500     |    mAP75 @500     |  
+|----------------------|-------------|---------------|------------------|
+|  256                 |  0.25       |  0.691        |     0.387        |
+|  512                 | 0.25        |  0.678        |     0.385        |
+|  768                 | 0.25        |  0.676        |     0.382        |
+|  256                 | 0.5         |  0.681        |     0.4        |
+
 
 ### Part-8: To the Test mAP50 0.671 / mAP75 0.373
 
