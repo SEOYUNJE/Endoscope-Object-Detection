@@ -1,4 +1,4 @@
-## [Detectron2 with CNN BackBone] My Journey to Test mAP50: 0.701 / mAP75: 0.343
+![image](https://github.com/user-attachments/assets/6201a500-54b1-4ba2-adda-a0fa8d6ed2aa)## [Detectron2 with CNN BackBone] My Journey to Test mAP50: 0.671 / mAP75: 0.373
 
 I recently started studying two-stage models using the Detectron2 Library. Since it was my first time working with Detectron2, I initially struggled to get the hang of it. While searching for resources. I came across an excellent article and a well-organized GitHub repository that really helped me. I'd love to share them with you!
 
@@ -107,3 +107,27 @@ Additionally, we considered a two-stage training approach where we first trained
 
 In the Box Head Stage, The base ROI pooler resolution was set to `14X14`. Increasing this resolution allows for capturing finer details and preserving more spatial information, which can potentially enhance mAP performance
 ![image](https://github.com/user-attachments/assets/14c31f7d-8d77-4cb6-8344-0737ed3e8ed5)
+
+### Part-7: To the Test mAP50 0.675 / mAP75 0.363
+
+### Part-8: To the Test mAP50 0.671 / mAP75 0.373
+
+This time, we focused on **`post-processing`**. Previously, we experimented with `IoU threshold`, `score threshold`, and the `maixmum number of detections per image`. Through our analysis, we discoverd that adding bounding boxes with lower confidence socres does not introduce any penalties. Based on insight, we set the score threshold to 0, increased the maximum detections per image to 500, and finally fined-tuned the IoU threshold to establish the optimal post-processing strategy. 
+
+If you want to see full code, [click here](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/utils/map_boxes/No_Penalty_Adding_Lower_Boxes.ipynb)
+
+#### No Penalty For Adding More Bbox
+
+If you add new bbox with confidence score less than the lowest confidence score for all of that class in your entire CSV file, then your mAP metric can only increase, it cannot decrease!
+
+![image](https://github.com/user-attachments/assets/904348b9-637e-4b19-8178-ec18f5baf65d)
+
+#### Tracking IoU Threshold
+
+|   IoU Threshold     |  mAP50 @500     |    mAP75 @500     |  
+|----------------------|-------------|---------------|
+|  0.4 |  0.668   |  0.353 |
+|  0.45  | 0.672   |  0.359 |
+|  0.5 | 0.675  | 0.363 |
+|  0.55  | 0.673 | 0.368 |
+|  0.6  | 0.671  | 0.373 |
