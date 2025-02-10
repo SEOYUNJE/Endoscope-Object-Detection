@@ -380,9 +380,10 @@ ___
 
 #### Version 2
 
-- Preprocessing with CLAHE(clipLimit=(1.5,1.5), tileGridSize=(8,8))
+- Preprocessing with **`CLAHE(clipLimit=(1.5,1.5), tileGridSize=(8,8))`**
 
 - I tried a lot of augmentation, But there's no effect on mAP metrics.
+ 
 | Albumentation      | Effect |
 |----------------------|-------|
 | Emboss               |  X  |
