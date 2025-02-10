@@ -447,7 +447,7 @@ ___
 
 |              Version            | Train  | Infer     |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |---------------------------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
-| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v1.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v1.ipynb)     |  0.587 | 0.410 | 0.637 | 0.716 | 0.281 | 0.134 | 0.285 | 0.423     |
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v1.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v1.ipynb)     |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
 
 </details>
 
