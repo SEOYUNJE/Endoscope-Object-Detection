@@ -287,6 +287,17 @@
    - Adding `Defocus Blur Transform` (**Defocus**)
    - Adding `Glass Blur Transform` (**GlassBlur**)
 
+#### Version5
+   - optimizer = `auto`
+   - Delete `Random brightness, contrast`(**RandomBrightnessContrast**)
+   - Delete `rotation up and down` (**flipud**)
+   - Adding `mosaic`
+   - Adding `mixup`
+
+#### Vesion6
+   - Inference, set `conf` = 0.001, `iou` = 0.7, `max_det` = 100
+      
+
 </details>
 
 <details>
@@ -421,7 +432,9 @@ ___
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v1.ipynb)     |    0.466 | 0.148 | 0.540 | 0.594 | 0.229 | 0.090 | 0.240 | 0.356     |
 | V2      | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_tta_v1.ipynb)       |    0.574 | 0.420 | 0.631 | 0.671 | 0.324 | 0.209 | 0.348 | 0.397     |
 | V3                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v3.ipynb)       |    0.532 | 0.390 | 0.548 | 0.658 | 0.301 | 0.180 | 0.309 | 0.412     |
-| V4                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v4.ipynb)       |    0.529 | 0.354 | 0.598 | 0.636 | 0.312 | 0.218 | 0.313 | 0.404     |  
+| V4                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v4.ipynb)       |    0.529 | 0.354 | 0.598 | 0.636 | 0.312 | 0.218 | 0.313 | 0.404     |
+| V5                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v5.ipynb)       |    0.610 | 0.459 | 0.660 | 0.712 | 0.353 | 0.178 | 0.413 | 0.468     |
+| V6                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v6.ipynb)       |    0.684 | 0.558 | 0.734 | 0.762 | 0.391 | 0.225 | 0.440 | 0.506     |
 
 </details>
 
