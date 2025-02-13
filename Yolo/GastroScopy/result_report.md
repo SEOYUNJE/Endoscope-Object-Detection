@@ -21,4 +21,3 @@ Introduces `C2PSA block`
 
 First, I trained yolov11 without any adjustments, and only with the yolo default setting. 
 
-### Thanks for Reading My Documents !!!
