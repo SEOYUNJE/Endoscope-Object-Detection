@@ -385,32 +385,17 @@ ___
 #### Version 1
 
 - Build EfficientDet Model Pipeline
-- Backbone: `tf_efficientnet_b0`
-- Model: `tf_efficientdet_d0`
+- **Backbone**: `tf_efficientnet_b0`
+- **Model**: `tf_efficientdet_d0`
 - Adding `HorizontalFlip(p=0.5)`
 
 #### Version 2
 
-- Preprocessing with **`CLAHE(clipLimit=(1.5,1.5), tileGridSize=(8,8))`**
-
-- I tried a lot of augmentation, But there's no effect on mAP metrics.
- 
-| Albumentation      | Effect |
-|----------------------|-------|
-| Emboss               |  X  |
-| Sharpen               |  X  |
-| MotionBlur               |  X  |
-| RandomToneCurve               |  X  |
-| HueSaturationValue               |  X  |
-| PlanckianJitter               |  X  |
-| Spatter               |  X  |
-| ISONoise               |  X  |
-| PlasmaShadow               |  X  |
-| RandomFog               |  X  |
-| ConstrainedCoarseDropout               |  X  |
-| BBoxSafeRandomCrop               |  X  |
-| SafeRotate               |  X  |
-| GridElasticDeform               |  X  |
+- **Batch Size**: `4`
+- **lr**: `1e03`
+- **weight_decay**: `1e-5`
+- **Scheduler_Type**: `CosineAnnealingLR`
+- **num_epochs**: `20`
 
 </details>
 
