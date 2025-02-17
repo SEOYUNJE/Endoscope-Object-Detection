@@ -405,6 +405,9 @@ ___
 - **fpn_channels**: `384`
 - **fpn_activation**: `swish`
 
+![image](https://github.com/user-attachments/assets/40496268-860f-4bbb-a660-5e1e77cc1517)
+
+
 
 </details>
 
