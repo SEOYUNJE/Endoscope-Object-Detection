@@ -397,6 +397,15 @@ ___
 - **Scheduler_Type**: `CosineAnnealingLR`
 - **num_epochs**: `20`
 
+#### Version 3
+
+- **fpn_name**: `BiFpn`
+- **FPN Node Weight Method**: `Fast Attention`
+- **fpn_cell_repeats**: `3`
+- **fpn_channels**: `384`
+- **fpn_activation**: `swish`
+
+
 </details>
 
 <details>
