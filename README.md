@@ -14,16 +14,6 @@
 
 => AI를 통해 위장, 대장 내 궤양, 용종, 암 검출 가능 
 
-![image](https://github.com/user-attachments/assets/8ba85673-6c77-465c-a990-688d4f6ff05b)
-
-
-**📌 Project Background**
-
-내시경 판독의 경우 장기간에 걸쳐 지속적으로 병변을 판독해야 합니다. 이는 집중력의 감소로 인해 휴먼에러를 야기하며, 판독을 시행하는 사람의 경험과 주관에 따라 다른 결론이 날 여지가 있습니다.
-
-본 프로젝트에서 개발하는 인공지능 모델은 사람을 대신하여 내시경 동영상을 빠르고 정확하게 판독하고 질병의 진단을 손쉽게 하여 질병의 진행을 예방하고자 합니다.
-
-![image](https://github.com/user-attachments/assets/adb89331-959d-419c-985d-564bf5452960)
 
    
 ## 📋 Table of content
@@ -486,6 +476,8 @@ ___
 <details>
 <summary>  ColonoScopy 📌 Metric mAP50, 75</summary>
 <br>
+
+</details>
 
 ### 🎯 Ensemble with WBF
 
