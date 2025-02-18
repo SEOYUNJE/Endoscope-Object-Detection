@@ -2,7 +2,7 @@
 
 - `Non-maximum Suppresions`(**NMS**)
 
-- `Soft-NMS`
+- `Soft-NMS` - **Linear Soft-NMS**, **Gassian Soft-NMS**
 
 - `Non-maximum Weighted`(**NMW**)
 
