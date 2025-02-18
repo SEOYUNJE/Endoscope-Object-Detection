@@ -411,6 +411,7 @@ ___
 - **img_size**: `256X256` -> `512X512`
 - **Backbone**: `tf_efficientnet_b0` -> `tf_efficientnet_b1`
 - **Model**: `tf_efficientnet_d0` -> `tf_efficientdet_d1`
+- **num_epochs**: `20 -> 40`
 
 
 </details>
