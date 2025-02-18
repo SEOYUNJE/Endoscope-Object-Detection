@@ -428,7 +428,7 @@ ___
 | V3                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v3.ipynb)       |    0.532 | 0.390 | 0.548 | 0.658 | 0.301 | 0.180 | 0.309 | 0.412     |
 | V4                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v4.ipynb)       |    0.529 | 0.354 | 0.598 | 0.636 | 0.312 | 0.218 | 0.313 | 0.404     |
 | V5                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v5.ipynb)       |    0.610 | 0.459 | 0.660 | 0.712 | 0.353 | 0.178 | 0.413 | 0.468     |
-| V6                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v6.ipynb)       |    0.684 | 0.558 | 0.734 | 0.762 | 0.391 | 0.225 | 0.440 | 0.506     |
+| V6                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v6.ipynb)       |    0.658 | 0.519 | 0.704 | 0.750 | 0.354 | 0.207 | 0.357 | 0.498     |
 
 </details>
 
