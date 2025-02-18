@@ -11,10 +11,8 @@
 
 1. Non-maximum Supression(NMS)
 
-2. Linear Soft-NMS
+2. Soft-NMS
 
-3. Guassian Soft-NMS
+3. Non-maximum weighted(NMW)
 
-4. Non-maximum weighted(NMW)
-
-5. Weighted boxes fusion(WBF) 
+4. Weighted boxes fusion(WBF) 
