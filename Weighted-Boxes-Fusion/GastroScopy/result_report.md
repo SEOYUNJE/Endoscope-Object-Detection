@@ -8,14 +8,13 @@
 
 ### Techinques to Combine Boxes 
 
-1. Simple Concatenating
 
-2. Non-maximum Supression(NMS)
+1. Non-maximum Supression(NMS)
 
-3. Linear Soft-NMS
+2. Linear Soft-NMS
 
-4. Guassian Soft-NMS
+3. Guassian Soft-NMS
 
-5. Non-maximum weighted(NMW)
+4. Non-maximum weighted(NMW)
 
-6. Weighted boxes fusion(WBF) 
+5. Weighted boxes fusion(WBF) 
