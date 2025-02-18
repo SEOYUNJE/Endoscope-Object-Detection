@@ -397,7 +397,14 @@ ___
 
 ![image](https://github.com/user-attachments/assets/40496268-860f-4bbb-a660-5e1e77cc1517)
 
-
+#### Version 4
+- **label_smoothing**: `0.0 -> 0.15`
+- **num_scales**: `3 -> 4`
+  
+  => [2^0, 2^0.33, 2^0.66] -> [2^0, 2^0.25, 2^0.5, 2^0.75]
+- **anchor_scale**: 3
+- **anchor_ratio**: [0.5, 1.0, 2.0]
+- **Backbone**: `tf_efficientnet_b0` -> `tf_efficientnet_b0.ns_jft_in1k` 
 
 </details>
 
