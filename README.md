@@ -406,6 +406,13 @@ ___
 - **anchor_ratio**: [0.5, 1.0, 2.0]
 - **Backbone**: `tf_efficientnet_b0` -> `tf_efficientnet_b0.ns_jft_in1k` 
 
+#### Version 5
+
+- **img_size**: `256X256` -> `512X512`
+- **Backbone**: `tf_efficientnet_b0` -> `tf_efficientnet_b1`
+- **Model**: `tf_efficientnet_d0` -> `tf_efficientdet_d1`
+
+
 </details>
 
 <details>
