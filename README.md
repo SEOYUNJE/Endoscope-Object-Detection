@@ -477,6 +477,7 @@ ___
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v1.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v1.ipynb)     |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
 | V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v2.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v2.ipynb)     |  0.591 | 0.550 | 0.448 | 0.775 | 0.213 | 0.129 | 0.148 | 0.363     |
 | V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v3.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v3.ipynb)     |  0.624 | 0.528 | 0.535 | 0.809 | 0.279 | 0.180 | 0.223 | 0.433     |
+| V4                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v4.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v4.ipynb)     |  0.620 | 0.536 | 0.528 | 0.794 | 0.293 | 0.212 | 0.207 | 0.458     |
 
 </details>
 
