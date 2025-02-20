@@ -52,4 +52,12 @@ To explore the relatvie importance of these two components, we conducted experim
 wehre  α and 𝛽 control the balance between the object detection model and the classifier model, allowing for optimal confidence calibration. 
 
 ### Tracking mAP Metrics
-                 
+
+|  Alpha | Beta |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|--------|-------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+|   1.0  |  0.0  |    0.658 | 0.519 | 0.704 | 0.750 | 0.354 | 0.207 | 0.357 | 0.498     |
+|   0.7  |  0.3  |     0.753 | 0.622 | 0.796 | 0.841 | 0.449 | 0.255 | 0.501 | 0.592   |
+|   0.6  |  0.4  |     0.753 | 0.621 | 0.797 | 0.841 | 0.447 | 0.253 | 0.498 | 0.591     |
+|   0.5  |  0.5  |     0.752 | 0.618 | 0.797 | 0.841 | 0.445 | 0.251 | 0.496 | 0.589   |
+|   0.4  |  0.6  |     0.749 | 0.613 | 0.794 | 0.838 | 0.443 | 0.249 | 0.492 | 0.588     |
+|   0.3  |  0.7  |     0.744 | 0.608 | 0.789 | 0.834 | 0.438 | 0.243 | 0.487 | 0.585     |                 
