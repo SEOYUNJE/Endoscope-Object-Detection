@@ -14,6 +14,8 @@ Before applying the Calibrated Confidence Score, we experimented with Weighted B
 
 => `WBF` - **mAP50: 0.735**, **mAP75: 0.443**
 
+<ColonoScopy>
+
 
 
 ### Bbox Confidence Score Order is Important
@@ -35,6 +37,19 @@ Therefore, the confidence score predicted by your object detection model is give
 
 Therefore to get the calibrated probability, you must use use Multiple independent binary probabilities with sigmoid. So we use our classifier and the formula 
 
+=> [GastroScopy Classifier (Tensorflow)](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Calibrated-Confidence-Score/gastroscopy_tf_classify.ipynb)
 
-=> [ColonoScopy Classifier](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Calibrated-Confidence-Score/colonoscopy_pytorchlightning.ipynb)
+=> [ColonoScopy Classifier (PyTorch Lightning)](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Calibrated-Confidence-Score/colonoscopy_pytorchlightning.ipynb)
 
+
+                 Confidence Score=P(class∣detection)×σ(classifier output)
+
+The first probability is derived from the **object detection model**, representing the likelihood of a detected object belonging to a specific class. The second probability comes from the **classifer model**, refining this prediction by providing and independent confidence estimate.
+
+To explore the relatvie importance of these two components, we conducted experiments by adjusting their contributions in the final confidence score. As a result, we modified the formula as follows:
+
+                 Confidence Score=P(class∣detection)^α×σ(classifier output)^β
+wehre  α and 𝛽 control the balance between the object detection model and the classifier model, allowing for optimal confidence calibration. 
+
+### Tracking mAP Metrics
+                 
