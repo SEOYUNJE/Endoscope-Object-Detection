@@ -10,7 +10,7 @@ Before applying the Calibrated Confidence Score, we experimented with Weighted B
 
 - `EfficientDet0` on 512X512 infer 512X512 - **mAP50: 0.689**, **mAP75: 0.376**
 
-📌 After Applying Weighted-Box-Fusiones `mAP50` increases by `+0.5`, mAP75 increases by `+ 0.75`
+📌 After Applying Weighted-Box-Fusiones `mAP50` increases by `+0.05`, mAP75 increases by `+ 0.075`
 
 => `WBF` - **mAP50: 0.735**, **mAP75: 0.443**
 
