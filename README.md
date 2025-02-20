@@ -497,7 +497,7 @@ ___
 
 </details>
 
-### 🎯 Ensemble with WBF
+### 🎯 Ensemble with WBF(PostProcessing: Change Bboxes)
 
 If you want to see applied wbf, nms, nmw, soft-nms, [click here](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/readme.md)
 
@@ -515,6 +515,9 @@ If you want to see applied wbf, nms, nmw, soft-nms, [click here](https://github.
 
 If you want to see result report, [click here](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/result_report.md)
 
+![image](https://github.com/user-attachments/assets/e71b478f-b0d1-4233-bf54-72a88286d4f5)
+
+
 |  Techniques to Combine Box |  Notebook  | mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |-------------|----------|--------|------|--------------|--------------|--------|--------------|--------------|----------------|
 |  NMS    |   [Notebook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/NMS.ipynb)  |  0.717 | 0.578 | 0.759 | 0.815 | 0.398 | 0.200 | 0.484 | 0.511     |
@@ -524,7 +527,33 @@ If you want to see result report, [click here](https://github.com/SEOYUNJE/Endos
 
 #### ColonoScopy
 
-### 🔗 Calibrated Confidence Score
+### 🔗 Calibrated Confidence Score(PostProcessing: Change Confidence order)
+
+#### Bbox Confidence Score Order is Important
+By simply adjusting the confidence scores of your bbox and not changing their xmin, xmax, ymin, ymax you can increase your mAP metrics. In the following example. the entire plot is 1class, each dot is 1 bbox and the numbers are confidence scores. If the confidence score for bbox D and G are changed then the mAP for this class increases by +0.12!! Therefore it is important to calibrate bbox probabilities.
+![image](https://github.com/user-attachments/assets/a4eaaf2a-e2eb-4928-b7e8-7a2df09f4a6f)
+The first probability is derived from the object detection model, representing the likelihood of a detected object belonging to a specific class. The second probability comes from the classifer model, refining this prediction by providing and independent confidence estimate.
+
+To explore the relatvie importance of these two components, we conducted experiments by adjusting their contributions in the final confidence score. As a result, we modified the formula as follows:
+
+             Confidence Score=P(class∣detection)^α×σ(classifier output)^β
+wehre α and 𝛽 control the balance between the object detection model and the classifier model, allowing for optimal confidence calibration.
+
+
+#### GastroScopy
+
+📌 After Calibrated Confidence Score, mAP50 increases by +0.18, mAP75 increases by + 0.006
+
+|  Alpha | Beta |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|--------|-------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+|   1.0  |  0.0  |    0.735 | 0.616 | 0.763 | 0.826 | 0.443 | 0.257 | 0.485 | 0.586     |
+|   0.7  |  0.3  |     0.753 | 0.622 | 0.796 | 0.841 | 0.449 | 0.255 | 0.501 | 0.592   |
+|   0.6  |  0.4  |     0.753 | 0.621 | 0.797 | 0.841 | 0.447 | 0.253 | 0.498 | 0.591     |
+|   0.5  |  0.5  |     0.752 | 0.618 | 0.797 | 0.841 | 0.445 | 0.251 | 0.496 | 0.589   |
+|   0.4  |  0.6  |     0.749 | 0.613 | 0.794 | 0.838 | 0.443 | 0.249 | 0.492 | 0.588     |
+|   0.3  |  0.7  |     0.744 | 0.608 | 0.789 | 0.834 | 0.438 | 0.243 | 0.487 | 0.585     |      
+
+#### ColonoScopy
 
 ### 📝 Citing
     {
