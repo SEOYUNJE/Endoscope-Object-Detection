@@ -298,7 +298,7 @@
 
 #### Detectron2
 <details>
-<summary> GastroScopy</summary>
+<summary> GastroScopy </summary>
    
 ### Updates
 ___
