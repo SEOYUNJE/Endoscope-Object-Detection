@@ -54,18 +54,19 @@ In our experiments; we considere five key factors, each influencing different as
 1) `FPN Architecture`: This refers to the overall structure and design of the FPN, including how the feature pyramids are constructed and integrated within the network.
 
    - **FPN(Feature Pyramid Network)**
-   - **BiFPN(Bidrectional Feature Pyramid Network)**
+   - **BiFPN(Bidrectional Feature Pyramid Network)** - We Used
    - **PAN(Path Aggregation Network)**
    - **QUPN(Quasi-Pyramid Network)**
      
-3) `FPN Node Weighted Method`: This facotr explores the different methods for weighting the nodes within the pyrammid, which can impact how features are prioritized at each level.
+2) `FPN Node Weighted Method`: This facotr explores the different methods for weighting the nodes within the pyrammid, which can impact how features are prioritized at each level.
    - **sum**: In configurations with `fpn-cell-repeats=1`, the sum method occasionally outperforms fast-attentions.
    - **fast-attn**: this method offers a balanced results, providing competitive performance without the complexity of more intricate methods. 
    - **attn**: this method often yields comparable or slightly lower metrics than the fast-attn method.
 
-5) `FPN Channel`:
+3) `FPN Channel`: This refers to the number of channels used at each pyramid level, directly impacting the model's capacity to capture and process information. The default setting was 64, but we experimented with expansions to 128,256,384,512,640 and 768. Notably, in tf-efficientdet-d0, a channel size of 384 yielded the best performance.
 
-6)
+4) `FPN Cell Repeats`: This involves adjusting the number of repetitions of cells within the network, affecting the depth and capacity of the FPN architecture. In Bi-FPN, we experimented with repetitions ranging from 1 to 5, and found that repeating the block 3 times yielded the highest mAP.
+
 
 ### Part-4: HeadNet and Some Tricks(Test mAP50: 0.620 / mAP75: 0.293)
 
