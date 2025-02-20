@@ -499,14 +499,28 @@ ___
 
 ### 🎯 Ensemble with WBF
 
+If you want to see applied wbf, nms, nmw, soft-nms, [click here](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/readme.md)
+
 #### GastroScopy
 
-|  Techniques to Combine Box |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
-|-------------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
-|  NMS    |    0.717 | 0.578 | 0.759 | 0.815 | 0.398 | 0.200 | 0.484 | 0.511     |
-|  Soft-NMS    |    0.662 | 0.534 | 0.677 | 0.774 | 0.417 | 0.224 | 0.483 | 0.545   |
-|  NMW    |    0.721 | 0.589 | 0.765 | 0.819 | 0.430 | 0.230 | 0.501 | 0.561    |
-|  WBF    |    0.735 | 0.616 | 0.763 | 0.826 | 0.443 | 0.257 | 0.485 | 0.586     |
+- `YoloV11n` on 256X256, infer 256X256 - **mAP50: 0.658**, **mAP75: 0.354**
+  
+- `Detectron2` on 512X512, infer 512X512 - **mAP50: 0.671**, **mAP75: 0.373**
+
+- `EfficientDet0` on 512X512 infer 512X512 - **mAP50: 0.689**, **mAP75: 0.376**
+
+📌 After Applying Weighted-Box-Fusiones `mAP50` increases by `+0.05`, mAP75 increases by `+ 0.075`
+
+=> `WBF` - **mAP50: 0.735**, **mAP75: 0.443**
+
+If you want to see result report, [click here](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/result_report.md)
+
+|  Techniques to Combine Box |  Notebook  | mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|-------------|----------|--------|------|--------------|--------------|--------|--------------|--------------|----------------|
+|  NMS    |   [Notebook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/NMS.ipynb)  |  0.717 | 0.578 | 0.759 | 0.815 | 0.398 | 0.200 | 0.484 | 0.511     |
+|  Soft-NMS    |  [Notebook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/Soft_NMS.ipynb)  |  0.662 | 0.534 | 0.677 | 0.774 | 0.417 | 0.224 | 0.483 | 0.545   |
+|  NMW    |    [Notebook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/NMW.ipynb)  | 0.721 | 0.589 | 0.765 | 0.819 | 0.430 | 0.230 | 0.501 | 0.561    |
+|  WBF    |  [Notebook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Weighted-Boxes-Fusion/GastroScopy/WBF.ipynb)  |   0.735 | 0.616 | 0.763 | 0.826 | 0.443 | 0.257 | 0.485 | 0.586     |
 
 #### ColonoScopy
 
