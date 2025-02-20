@@ -35,7 +35,8 @@ Therefore, the confidence score predicted by your object detection model is give
 
 Therefore to get the calibrated probability, you must use use Multiple independent binary probabilities with sigmoid. So we use our classifier and the formula 
 
-=> [GastroScopy Classifier](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/calibrated-confidence-score/gastroscopy_tf_classsify.ipynb)
+=> [GastroScopy Classifier](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Calibrated-Confidence-Score/gastroscopy_tf_classsify.ipynb)
 
-=> [ColonoScopy Classifier](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/calibrated-confidence-score/colonoscopy-pytorchlightning.ipynb)
+
+=> [ColonoScopy Classifier](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Calibrated-Confidence-Score/colonoscopy-pytorchlightning.ipynb)
 
