@@ -290,11 +290,16 @@
 
 </details>
 
+📌 [GastroScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/result_report.md)
+
 <details>
 <summary> ColonoScopy</summary>
 <br>
 
 </details>
+
+📌 [ColonoScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/ColonoScopy/result_report.md)
+
 
 #### Detectron2
 <details>
@@ -359,11 +364,15 @@ ___
 
 </details>
 
+📌 [GastroScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/result_report.md)
+
 <details>
 <summary> ColonoScopy</summary>
 <br>
 
 </details>
+
+📌 [ColonoScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/ColonoScopy/result_report.md)
 
 #### EfficientDet
 <details>
@@ -412,15 +421,17 @@ ___
 - **Backbone**: `tf_efficientnet_b0` -> `tf_efficientnet_b1`
 - **Model**: `tf_efficientnet_d0` -> `tf_efficientdet_d1`
 - **num_epochs**: `20 -> 40`
-
-
 </details>
+
+📌 [GastroScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/result_report.md)
 
 <details>
 <summary> ColonoScopy</summary>
 <br>
 
 </details>
+
+📌 [ColonoScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/result_report.md)
 
 ### ⛳ Inference
 
