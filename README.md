@@ -501,7 +501,7 @@ ___
 |---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference1.ipynb)     |    0.445 | 0.107 | 0.576 | 0.652 | 0.230 | 0.008 | 0.319 | 0.362     |
 | V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference2.ipynb)      |    0.534 | 0.281 | 0.619 | 0.701 | 0.309 | 0.033 | 0.437 | 0.458     |
-| V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference3.ipynb)      |    0.560 | 0.262 | 0.614 | 0.705 | 0.177 | 0.038 | 0.259 | 0.234     |
+| V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference3.ipynb)      |    0.565 | 0.316 | 0.634 | 0.744 | 0.267 | 0.035 | 0.337 | 0.431     |
 </details>
 
 #### EfficientDet_TEST
