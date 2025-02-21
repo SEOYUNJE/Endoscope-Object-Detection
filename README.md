@@ -553,7 +553,7 @@ wehre α and 𝛽 control the balance between the object detection model and the
 
 #### GastroScopy
 
-📌 After Calibrated Confidence Score, mAP50 increases by +0.18, mAP75 increases by + 0.006
+📌 After Calibrated Confidence Score, mAP50 increases by +0.018, mAP75 increases by + 0.006
 
 |  Alpha | Beta |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |--------|-------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
