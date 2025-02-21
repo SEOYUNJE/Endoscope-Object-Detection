@@ -377,8 +377,16 @@ ___
      
 #### version2
 - Adding Data augmentation
-   - 
+   - Adding `RandomFlip` with (prob=0.4, horizontal=True, vertical=False)
+   - Adding `RandomContrast` with (intensity_min = 0.8, intensity_max=1.2)
+   - Adding `RandomBrightness` with (intensity_min=0.5, intensity_max=1.5)
+     
 #### version3
+   - Adding `Custom Mosaic Transform` with probability = 0.2
+   - Adding `RandomLighting` with scale=0.1
+   - Adding `RandomRotation` with angle=[-10, 10]
+
+#### version4
 
 
 </details>
@@ -491,10 +499,9 @@ ___
    
 |              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
-| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)     |    0.740 | 0.756 | 0.682 | 0.781 | 0.460 | 0.580 | 0.325 | 0.475     |
-| V1 with TTA         | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v1.ipynb)       |    0.742 | 0.745 | 0.685 | 0.797 | 0.449 | 0.597 | 0.291 | 0.458     |
-| Version 3                  | 29       |                                                                 |
-| Version 4                  | 1        |                                                                 |
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference1.ipynb)     |    0.445 | 0.107 | 0.576 | 0.652 | 0.230 | 0.008 | 0.319 | 0.362     |
+| V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference2.ipynb)      |    0.534 | 0.281 | 0.619 | 0.701 | 0.309 | 0.033 | 0.437 | 0.458     |
+| V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference3.ipynb)      |    0.560 | 0.262 | 0.614 | 0.705 | 0.177 | 0.038 | 0.259 | 0.234     |
 </details>
 
 #### EfficientDet_TEST
