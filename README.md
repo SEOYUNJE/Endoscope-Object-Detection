@@ -378,7 +378,7 @@ ___
 #### version2
 - Adding Data augmentation
    - Adding `RandomFlip` with (prob=0.4, horizontal=True, vertical=False)
-   - Adding `RandomContrast` with (intensity_min = 0.8, intensity_max=1.2)
+   - Adding `RandomContrast` with (intensity_min = 0.5, intensity_max=1.5)
    - Adding `RandomBrightness` with (intensity_min=0.5, intensity_max=1.5)
      
 #### version3
