@@ -12,3 +12,7 @@
 ![image](https://github.com/user-attachments/assets/c8a3d957-cc8a-462e-a77e-d391f27b333c)
 
 ![image](https://github.com/user-attachments/assets/5e49b63a-1edb-468b-b746-820dae0f2d86)
+
+### 📌 Example with Bbox
+
+![image](https://github.com/user-attachments/assets/7e936296-cf26-4c0f-b8b4-547db0925b0e)
