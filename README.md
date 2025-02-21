@@ -368,7 +368,18 @@ ___
 
 <details>
 <summary> ColonoScopy</summary>
-<br>
+   
+### Updates
+___
+#### version1
+   - Build Detectron2 Model Pipeline
+   - Backbone: faster_rcnn_R_50_FPN_3x
+     
+#### version2
+- Adding Data augmentation
+   - 
+#### version3
+
 
 </details>
 
