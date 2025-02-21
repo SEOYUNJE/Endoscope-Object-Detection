@@ -1,5 +1,20 @@
 # RGB_Superposition
 
+So far, our focus has been on post-processing techniques such as calibrated confidence scoring and weighted boxes fusion. Weighted Boxes Fusion was applied to refine bounding box coordinates for more precise localization, while the Calibrated Confidence Score aimed to enhance the reliability of confidence estimates without altering the bounding boxes.
+
+We observed a significant improvement across tow stages:
+
+- **After applying Weighted Boxes Fusion**, mAP50 increased by +0.05, and mAP75 saw a +0.075 improvement
+- **After calibrating confidence score**, mAP50 improved by +0.018, while mAP75 gained +0.006
+
+This time, our focus shifted towards preprocessing techniques to further enhance our model's performance.
+
+In our dataset, we observed the presence of polygon masks, which led us to explore the best way to integrate them into our preprocessing pipeline. After careful consideration, we decided to leverage mask images to refine the input representation.
+
+To effectively incorporate mask information while preserving essential features, we opted for RGB-Superposition, a technique that enables the seamless fusion of mask data with RGB channels. This approach allows our model to leverage both spatial and structural information, ultimately enhancing its ability to make more precise predictions.
+
+=> **`After applying RGB Superpositions in image, mAP50 increased by + 0.25, and mAP75 increased by + 0.55`**
+
 ### 📌 The process of creating an RGB Superposition Image
 
 ![image](https://github.com/user-attachments/assets/c0c00493-dc86-4a29-a837-285e7dc15e47)
