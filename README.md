@@ -39,7 +39,7 @@
 
    III. [EfficientDet](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#efficientdet)
 
-5. [Inference](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-inference)
+4. [Inference](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-inference)
 
    I. [Yolo](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#yolo_test)
    
@@ -48,10 +48,14 @@
    III. [EfficientDet](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#efficientdet_test)
 
 
-7. [Ensemble with WBF](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ensemble-with-wbf)
+5. [Ensemble with WBF](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-ensemble-with-wbf)
 
-8. [Calibrated Confidence Score](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-calibrated-confidence-score)
+6. [Calibrated Confidence Score](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-calibrated-confidence-score)
 
+7. [RGB Superposition](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-rgb-superposition)
+
+8. [Next Step](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-next-step)
+   
 9. [Citing](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-citing)
 
 10. [Contact](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/README.md#-contact)
@@ -290,15 +294,12 @@
 
 </details>
 
-📌 [GastroScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/result_report.md)
 
 <details>
 <summary> ColonoScopy</summary>
 <br>
 
 </details>
-
-📌 [ColonoScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/ColonoScopy/result_report.md)
 
 
 #### Detectron2
@@ -364,8 +365,6 @@ ___
 
 </details>
 
-📌 [GastroScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/result_report.md)
-
 <details>
 <summary> ColonoScopy</summary>
    
@@ -390,8 +389,6 @@ ___
 
 
 </details>
-
-📌 [ColonoScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/ColonoScopy/result_report.md)
 
 #### EfficientDet
 <details>
@@ -442,15 +439,11 @@ ___
 - **num_epochs**: `20 -> 40`
 </details>
 
-📌 [GastroScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/result_report.md)
-
 <details>
 <summary> ColonoScopy</summary>
 <br>
 
 </details>
-
-📌 [ColonoScopy Result Report](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/result_report.md)
 
 ### ⛳ Inference
 
@@ -583,6 +576,28 @@ wehre α and 𝛽 control the balance between the object detection model and the
 |   0.3  |  0.7  |     0.744 | 0.608 | 0.789 | 0.834 | 0.438 | 0.243 | 0.487 | 0.585     |      
 
 #### ColonoScopy
+
+### 🛴 RGB SuperPosition
+
+If you want to sea more detail [click here](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/RGB-Superposition.md)
+
+#### The process of creating an RGB Superposition Image
+
+![image](https://github.com/user-attachments/assets/9645ec15-b0a2-4924-8432-461fd567b343)
+
+#### Example with Bbox
+
+![image](https://github.com/user-attachments/assets/12cd11bb-23d5-4867-b937-4ed13e62dd4d)
+
+
+
+### ⚾ Next Step
+
+- `Custom BBox Loss`
+- `Custom FPN Architecture`
+- `Adding Attention Techniques`
+- `Exploration of other object detection library`
+- `Exploration of other backbone model` 
 
 ### 📝 Citing
     {
