@@ -448,9 +448,9 @@ ___
 ### ⛳ Inference
 
 #### YOLO_TEST
-<details>
-<summary>  GastroScopy 📌 Metric mAP50, 75</summary>
-<br>
+
+GastroScopy 📌 Metric mAP50, 75
+
 
 |              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
@@ -461,18 +461,11 @@ ___
 | V5                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v5.ipynb)       |    0.610 | 0.459 | 0.660 | 0.712 | 0.353 | 0.178 | 0.413 | 0.468     |
 | V6                 | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v6.ipynb)       |    0.658 | 0.519 | 0.704 | 0.750 | 0.354 | 0.207 | 0.357 | 0.498     |
 
-</details>
+ColonoScopy 📌 Metric mAP50, 75
 
-<details>
-<summary>  ColonoScopy 📌 Metric mAP50, 75</summary>
-<br>
-
-</details>
 
 #### Detectron2_TEST
-<details>
-<summary> GastroScopy 📌 Metric mAP50, 75</summary>
-<br>
+GastroScopy 📌 Metric mAP50, 75
    
 |              Version            | Train  | Infer     |  Config |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |---------------------------------|----------|-------|--------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
@@ -484,40 +477,38 @@ ___
 | V5                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/baseline_v5.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v5.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v5.yaml)  |   0.701 | 0.552 | 0.745 | 0.805 | 0.343 | 0.199 | 0.399 | 0.430     |
 | V6                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/baseline_v6.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v6.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v6.yaml)  |   0.675 | 0.533 | 0.700 | 0.792 | 0.363 | 0.188 | 0.419 | 0.480     |
 | V7                  |  X |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Inference/predict_script_v7.ipynb)       | [Config](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/GastroScopy/Train/Config/config_v6.yaml)  |   0.671 | 0.532 | 0.695 | 0.786 | 0.373 | 0.195 | 0.422 | 0.502     |
-</details>
 
-<details>
-<summary> ColonoScopy 📌 Metric mAP50, 75</summary>
-<br>
+
+ColonoScopy 📌 Metric mAP50, 75
    
-|              Version            | Link     |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
-|---------------------------------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
-| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference1.ipynb)     |    0.445 | 0.107 | 0.576 | 0.652 | 0.230 | 0.008 | 0.319 | 0.362     |
-| V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference2.ipynb)      |    0.534 | 0.281 | 0.619 | 0.701 | 0.309 | 0.033 | 0.437 | 0.458     |
-| V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference3.ipynb)      |    0.565 | 0.316 | 0.634 | 0.744 | 0.267 | 0.035 | 0.337 | 0.431     |
-</details>
+|              Version            | Train  | Inference  |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|---------------------------------|----------|-------|------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline1.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference1.ipynb)     |    0.445 | 0.107 | 0.576 | 0.652 | 0.230 | 0.008 | 0.319 | 0.362     |
+| V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline2.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference2.ipynb)      |    0.534 | 0.281 | 0.619 | 0.701 | 0.309 | 0.033 | 0.437 | 0.458     |
+| V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline3.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference3.ipynb)      |    0.565 | 0.316 | 0.634 | 0.744 | 0.267 | 0.035 | 0.337 | 0.431     |
+
+|     Version     |    Name       | Train  | Infer  |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|----------------|-----------------|--------|--------|------|--------------|--------------|--------|--------------|--------------|----------------|------|
+| V1      | MViTv2_T(Faster-RCNN)   | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Train/baseline_v1.ipynb)  |  [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Inference/baseline_v1.ipynb)  |  0.678 | 0.447 | 0.718 | 0.870 | 0.333 | 0.0412 | 0.430 | 0.527     |
+
 
 #### EfficientDet_TEST
-<details>
-<summary>  GastroScopy 📌 Metric mAP50, 75</summary>
-<br>
+GastroScopy 📌 Metric mAP50, 75
 
-|              Version            | Train  | Infer     |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
-|---------------------------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
-| V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v1.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v1.ipynb)     |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
-| V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v2.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v2.ipynb)     |  0.591 | 0.550 | 0.448 | 0.775 | 0.213 | 0.129 | 0.148 | 0.363     |
-| V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v3.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v3.ipynb)     |  0.624 | 0.528 | 0.535 | 0.809 | 0.279 | 0.180 | 0.223 | 0.433     |
-| V4                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v4.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v4.ipynb)     |  0.620 | 0.536 | 0.528 | 0.794 | 0.293 | 0.212 | 0.207 | 0.458     |
-| V5                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v5.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v5.ipynb)     |  0.689 | 0.551 | 0.713 | 0.803 | 0.376 | 0.199 | 0.432 | 0.498     |
+|     Version    | Name | Train  | Infer     |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|------------------|---------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1    | tf-efficientdet_d0              | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v1.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v1.ipynb)     |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
+| V2     | tf-efficientdet_d0               | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v2.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v2.ipynb)     |  0.591 | 0.550 | 0.448 | 0.775 | 0.213 | 0.129 | 0.148 | 0.363     |
+| V3      | tf-efficientdet_d0              | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v3.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v3.ipynb)     |  0.624 | 0.528 | 0.535 | 0.809 | 0.279 | 0.180 | 0.223 | 0.433     |
+| V4      | tf-efficientdet_d0              | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v4.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v4.ipynb)     |  0.620 | 0.536 | 0.528 | 0.794 | 0.293 | 0.212 | 0.207 | 0.458     |
+| V5      | tf-efficientdet_d1             | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Train/baseline_v5.ipynb) |[NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/GastroScopy/Inference/predict_script_v5.ipynb)     |  0.689 | 0.551 | 0.713 | 0.803 | 0.376 | 0.199 | 0.432 | 0.498     |
 
 
-</details>
+ColonoScopy 📌 Metric mAP50, 75
 
-<details>
-<summary>  ColonoScopy 📌 Metric mAP50, 75</summary>
-<br>
-
-</details>
+|     Version    | Name | Train  | Infer     |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|------------------|---------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1    | Resdet50  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Train/baseline_v1.ipynb) |  X  |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
 
 ### 🎯 Ensemble with WBF(PostProcessing: Change Bboxes)
 
