@@ -463,6 +463,10 @@ GastroScopy 📌 Metric mAP50, 75
 
 ColonoScopy 📌 Metric mAP50, 75
 
+|       Version   | name  |  Train  |  Test   |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
+|-------------------|----------|--------|----------|----------|--------------|--------------|--------------|--------|--------------|--------------|----------------|
+| V1    | rtdeter-large   | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Train/baseline_v1.ipynb)             | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Yolo/GastroScopy/Inference/inference_v1.ipynb)     |    0.466 | 0.148 | 0.540 | 0.594 | 0.229 | 0.090 | 0.240 | 0.356     |
+
 
 #### Detectron2_TEST
 GastroScopy 📌 Metric mAP50, 75
