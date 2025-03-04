@@ -386,6 +386,18 @@ ___
    - Adding `RandomRotation` with angle=[-10, 10]
 
 #### version4
+   - **Backbone** : faster_rcnn_R_50_FPN_1x
+   - **scheduler** : WarmupCosineLR
+   - Adding `Mosaic` with probability 0.2
+
+#### version5
+   - **batch size** : 8
+   - **warmup factor** : 5e-4
+   - **scheduler** : WarmupMultiStepLR
+
+#### version6
+   - **batch size** : 4
+
 
 
 </details>
@@ -490,6 +502,10 @@ ColonoScopy 📌 Metric mAP50, 75
 | V1                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline1.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference1.ipynb)     |    0.445 | 0.107 | 0.576 | 0.652 | 0.230 | 0.008 | 0.319 | 0.362     |
 | V2                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline2.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference2.ipynb)      |    0.534 | 0.281 | 0.619 | 0.701 | 0.309 | 0.033 | 0.437 | 0.458     |
 | V3                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline3.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference3.ipynb)      |    0.565 | 0.316 | 0.634 | 0.744 | 0.267 | 0.035 | 0.337 | 0.431     |
+| V4                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline3.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference4.ipynb)      |    0.552 | 0.316 | 0.611 | 0.729 | 0.239 | 0.050 | 0.320 | 0.347     |
+| V5                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline3.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference5.ipynb)      |    0.619 | 0.411 | 0.655 | 0.792 | 0.188 | 0.029 | 0.211 | 0.324     |
+| V6                  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Train/baseline3.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Inference/inference6.ipynb)      |    0.612 | 0.404 | 0.640 | 0.792 | 0.228 | 0.027 | 0.293 | 0.366     |
+
 
 |     Version     |    Name       | Train  | Infer  |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |----------------|-----------------|--------|--------|------|--------------|--------------|--------|--------------|--------------|----------------|------|
