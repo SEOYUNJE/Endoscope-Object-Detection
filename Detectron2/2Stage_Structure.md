@@ -93,4 +93,25 @@ ___
 ![image](https://github.com/user-attachments/assets/ea0b1b55-c72f-400b-8338-fa0c15cfffe0)
 
 
-# 2. 2Stage Model with Transformer Backbone
+# 2. Multiscale Vision Transformers
+
+![image](https://github.com/user-attachments/assets/515f5f90-b4ea-4947-b072-032b25a87327)
+
+**Multiscale Vision Transformers** learn a hierarchy from dense(in space) and simple(in channels) to coarse and complex features. Several resolution-channel scale stages progressively increase the channel capacity of the intermediate latent sequence while reducing its length and thereby spatial resolution
+
+![image](https://github.com/user-attachments/assets/0327721d-4c1f-4a47-99b0-f69c0d4de707)
+
+**Accuracy/complexity trade-off** on Kinetics-400 for
+varying # of inference clips per video shown in MViT curves.
+Concurrent vision-transformer based methods [78,6,1] require over
+5× more computation and large-scale external pre-training on
+ImageNet-21K (IN-21K), to achieve equivalent MViT accuracy.
+
+![image](https://github.com/user-attachments/assets/676a9d77-5ca6-43c5-b16a-1766d41e2471)
+
+**Pooling Attention** is a flexible attention mechanism that
+(i) allows obtaining the reduced space-time resolution (TˆHˆWˆ ) of
+the input (T HW) by pooling the query, Q = P(Qˆ; ΘQ), and/or
+(ii) computes attention on a reduced length (T˜H˜W˜ ) by pooling the
+key, K = P(Kˆ ; ΘK), and value, V = P(Vˆ ; ΘV ), sequences.
+
