@@ -510,6 +510,8 @@ ColonoScopy 📌 Metric mAP50, 75
 |     Version     |    Name       | Train  | Infer  |   mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |----------------|-----------------|--------|--------|------|--------------|--------------|--------|--------------|--------------|----------------|------|
 | V1      | MViTv2_T(Faster-RCNN)   | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Train/baseline_v1.ipynb)  |  [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Inference/baseline_v1.ipynb)  |  0.678 | 0.447 | 0.718 | 0.870 | 0.333 | 0.0412 | 0.430 | 0.527     |
+| V1      | MViTv2_T(Faster-RCNN)   | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Train/baseline_v2.ipynb)  |  [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Inference/baseline_v2.ipynb)  |  0.667 | 0.423 | 0.720 | 0.857 | 0.351 | 0.0469 | 0.447 | 0.560     |
+| V1      | MViTv2_S(Cascade Faster-RCNN)   | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Train/baseline_v3.ipynb)  |  [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/Detectron2/Colonoscopy/Vit/Inference/baseline_v3.ipynb)  |  0.667 | 0.431 | 0.690 | 0.879 | 0.394 | 0.091 | 0.464 | 0.628     |
 
 
 #### EfficientDet_TEST
