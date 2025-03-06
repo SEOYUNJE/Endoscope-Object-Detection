@@ -531,6 +531,7 @@ ColonoScopy 📌 Metric mAP50, 75
 |     Version    | Name | Train  | Infer     |  mAP@50 | mAP@50-Ulcer | mAP@50-Polyp |mAP@75-Cancer | mAP@75 | mAP@75-Ulcer | mAP@75-Polyp | mAP@75-Cancer  |
 |------------------|---------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
 | V1    | Resdet50  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Train/baseline_v1.ipynb) |  X  |  0.399 | 0.335 | 0.167 | 0.695 | 0.139 | 0.092 | 0.020 | 0.305     |
+| V2    | Resdet50  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Train/baseline_v2.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Inference/inference_v_2.ipynb) |  0.662 | 0.452 | 0.671 | 0.862 | 0.357 | 0.080 | 0.468 | 0.523     |
 
 ### 🎯 Ensemble with WBF(PostProcessing: Change Bboxes)
 
