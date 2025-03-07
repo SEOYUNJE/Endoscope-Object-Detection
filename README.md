@@ -454,6 +454,27 @@ ___
 <details>
 <summary> ColonoScopy</summary>
 <br>
+   
+### Updates
+___
+#### Version 1
+
+- Build EfficientDet Model Pipeline
+- **Backbone**: `resdet50`
+- Adding `HorizontalFlip(p=0.5)`
+- `scheduler` : CosineAnnealingLR
+
+#### Version2
+- Adding `RandomBrightnessContrast`
+- Adding `RandomRotated`
+- Adding `CLAHE`
+- 50 epochs
+- `train batch size`: 16 -> 8
+
+#### Version3
+- `train batch size` 8 -> 4
+-  `weight_decay` : 1e-4
+-  `scheduler` -> CosineAnnealingWarmRestarts
 
 </details>
 
@@ -532,6 +553,7 @@ ColonoScopy 📌 Metric mAP50, 75
 |------------------|---------------|----------|-------|-----|--------------|--------------|--------------|--------|--------------|--------------|----------------|
 | V1    | Resdet50  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Train/baseline_v1_colab.ipynb) |  [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Inference/inference_v_1.ipynb)  |  0.625 | 0.428 | 0.617 | 0.830 | 0.315 | 0.046 | 0.398 | 0.500     |
 | V2    | Resdet50  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Train/baseline_v2_colab.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Inference/inference_v_2.ipynb) |  0.662 | 0.452 | 0.671 | 0.862 | 0.357 | 0.080 | 0.468 | 0.523     |
+| V2    | Resdet50  | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Train/baseline_v3_colab.ipynb) | [NoteBook](https://github.com/SEOYUNJE/Endoscope-Object-Detection/blob/main/EfficientDet/ColonoScopy/Inference/inference_v_3.ipynb) |  0.665 | 0.458 | 0.695 | 0.842 | 0.385 | 0.092 | 0.515 | 0.548     |
 
 ### 🎯 Ensemble with WBF(PostProcessing: Change Bboxes)
 
