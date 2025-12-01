@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/781a248d-6091-438a-b3ec-674da69c4bd4)
-
 
 ## 📚 Project Introduction 📚
 **📌 Project Name** 
@@ -13,6 +11,27 @@
 **📌 Lesion Detection**
 
 => AI를 통해 위장, 대장 내 궤양, 용종, 암 검출 가능 
+
+```mermaid
+mindmap
+  root((📚 Project Introduction 📚))
+    Project Name
+      딥러닝 기반 위,대장 내시경 영상 내 질환 자동 검출
+    Project Goal
+      1Stage Model 학습
+      2Stage Model 학습
+      의료 이미지 도메인 이해 향상
+    Lesion Detection
+      위장 질환
+        궤양
+        용종
+        암
+      대장 질환
+        궤양
+        용종
+        암
+
+```
 
 
    
